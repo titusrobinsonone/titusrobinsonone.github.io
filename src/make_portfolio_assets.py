@@ -128,7 +128,7 @@ def make_pdf():
     pdf_text(c, 44, 699, 'Survey Operations Dashboard', 36, INK, True)
     pdf_text(c, 44, 671, 'From survey data to clear, auditable reporting.', 16, MUTED)
     pdf_text(c, 44, 640, 'AUG 3 - OCT 25, 2026   |   6 MARKETS   |   3 CHANNELS   |   FULL DATASET VIEW', 10, MUTED)
-    c.linkURL(ORIGIN + '/', (44, 690, 740, 731), relative=0)
+    c.linkURL(ORIGIN + '/survey.html', (44, 690, 740, 731), relative=0)
 
     metrics = [
         ('USABLE RESPONSES', f"{SUMMARY['responses']:,}", 'Validated survey records'),
@@ -212,7 +212,7 @@ def make_pdf():
         c.setFillColor(HexColor('#cfaa70')); c.roundRect(828, yy - 12, 306 * row['count'] / META['rejectedRows'], 4, 2, fill=1, stroke=0)
     pdf_wrap(c, 828, 140, 'Flagged rows remain in a separate export with their rejection reason. Only validated responses enter the dashboard.', 306, 9, MUTED, 13)
     pdf_text(c, 828, 92, 'Explore the interactive dashboard online', 10, TEAL, True)
-    c.linkURL(ORIGIN + '/', (828, 86, 1135, 106), relative=0)
+    c.linkURL(ORIGIN + '/survey.html', (828, 86, 1135, 106), relative=0)
 
     pdf_text(c, 44, 45, 'DEFINITIONS', 8, TEAL, True)
     pdf_text(c, 129, 45, 'Completion = completed / usable. CSAT = completed scores 4-5 / completed. Median time uses completed responses.', 8, MUTED)

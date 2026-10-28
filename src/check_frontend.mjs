@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {experimentDecision} from '../docs/demos.js';
+const data=JSON.parse(fs.readFileSync(new URL('../docs/assets/experiment-data.json',import.meta.url)));
+for(const scenario of data.scenarios)assert.equal(experimentDecision(scenario,data.meta.minimumLift,data.meta.maximumErrorIncrease),scenario.decision,scenario.id);
+const balanced=data.scenarios.find(s=>s.id==='balanced');
+assert.equal(experimentDecision(balanced,0),'Ship candidate');
+assert.equal(experimentDecision(balanced,0.015),'Inconclusive: practical lift');
+assert.equal(experimentDecision(data.scenarios.find(s=>s.id==='logging-loss'),0),'Investigate allocation');
+console.log('Frontend decision rules match Python results; threshold and allocation precedence checks pass.');
