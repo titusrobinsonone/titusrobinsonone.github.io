@@ -4,3 +4,7 @@ __pycache__/
 demo-output/
 tmp/
 .DS_Store
+
+.openai/
+out/
+docs/qa-*.html

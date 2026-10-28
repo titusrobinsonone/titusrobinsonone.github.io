@@ -1,74 +1,79 @@
-# Titus Robinson — Data & BI Portfolio
+# Titus Robinson — Data, Decisions & Automation
 
-Interactive survey analytics and a reproducible Python data-quality pipeline.
+[**Explore the portfolio →**](https://titusrobinsonone.github.io/) · [LinkedIn](https://www.linkedin.com/in/titusrobinson/) · [How to add a project](EDITING.md)
 
-**[Explore the dashboard](https://titusrobinsonone.github.io/)** · **[Watch the 38-second Python demo](https://titusrobinsonone.github.io/automation/)** · **[LinkedIn](https://www.linkedin.com/in/titusrobinson/)**
+Five inspectable projects connecting a business question to runnable analysis, interactive reporting and clear limitations.
 
-[![Survey operations dashboard](docs/assets/dashboard-preview.png)](https://titusrobinsonone.github.io/)
+Portfolio owner and maintainer: **Titus Robinson**. These are independent, AI-assisted portfolio implementations created in October 2026. All included datasets and reported results are synthetic demonstrations, not employer data, client work or measured workplace improvements.
 
-## What is in this project?
+![Portfolio preview](docs/assets/portfolio-cover.png)
 
-- An interactive dashboard with market, channel and date filters, weekly trends, completion and satisfaction metrics, and a validation audit.
-- A runnable, standard-library Python pipeline with explicit validation rules, first-valid-ID deduplication, rejected-row exports and consistent metric definitions.
-- A captioned 38-second walkthrough, synthetic CSVs, sample outputs, a downloadable project bundle and a one-page dashboard PDF.
+| Project | Decision | Implementation | Explore |
+|---|---|---|---|
+| Demand & Inventory Lab | How much stock buys the next increment of service? | Chronological forecasting, 24 policy scenarios, inventory-flow reconciliation | [Case study](https://titusrobinsonone.github.io/project.html?id=inventory) · [Python](src/inventory_lab.py) · [Method](src/INVENTORY_README.md) |
+| Subscription Revenue Forensics | What changed in MRR, and does every cent reconcile? | SQLite customer-month spine, window functions, MRR bridge, cohort retention | [Case study](https://titusrobinsonone.github.io/project.html?id=revenue) · [SQL](src/revenue_model.sql) · [Method](src/REVENUE_README.md) |
+| Experiment Decision Studio | Is a conversion improvement reliable and safe enough to ship? | Confidence intervals, sample-ratio checks, practical thresholds and error guardrails | [Case study](https://titusrobinsonone.github.io/project.html?id=experiment) · [Python](src/experiment_studio.py) · [Method](src/EXPERIMENT_README.md) |
+| Survey Operations Dashboard | Which markets need attention, and are the inputs trustworthy? | Market/channel/date filters, metric definitions and validation audit | [Dashboard](https://titusrobinsonone.github.io/survey.html) · [JavaScript](docs/assets/app.js) |
+| Python Data Quality Automation | Can repeated cleaning become a reproducible process? | Validation, deduplication, isolated exceptions, CSV/JSON outputs | [Video & demo](https://titusrobinsonone.github.io/automation/) · [Python](src/survey_pipeline.py) |
 
-**Synthetic portfolio demonstration.** This is new demonstration work created in October 2026. All responses, identifiers and results are generated. The figures describe this example dataset and do not represent client data or measured workplace improvements.
+## Run the analyses
 
-## Example run
-
-```bash
-python3 src/survey_pipeline.py --generate-demo --output demo-output
-```
-
-Python 3.10+ is sufficient for the pipeline. No packages, API credentials or external services are required.
-
-| Validation result | Rows |
-| --- | ---: |
-| Input | 7,300 |
-| Validated | 7,200 |
-| Isolated exceptions | 100 |
-
-The intentional exceptions are 48 duplicate IDs, 24 missing IDs, 18 invalid satisfaction scores and 10 invalid durations. Clean rows plus rejected rows reconcile to the input count.
-
-The valid synthetic dataset contains 6,313 completed responses: **87.68% completion**, **76.29% CSAT** and a **188-second median completion time**. Full definitions and validation rules are in [the pipeline README](src/README.md).
-
-## Inspect the work
-
-- [Python pipeline](src/survey_pipeline.py)
-- [Focused validation tests](src/tests/test_survey_pipeline.py)
-- [Actual run log](docs/assets/pipeline-run.txt)
-- [Synthetic input](docs/assets/survey_raw.csv), [clean output](docs/assets/survey_clean.csv) and [rejected rows](docs/assets/survey_rejected.csv)
-- [Market summaries](docs/assets/survey_summary.csv) and [quality report](docs/assets/quality-report.json)
-- [Download the standalone Python project](docs/assets/survey-pipeline-project.zip)
-- [Dashboard PDF](docs/assets/survey-dashboard.pdf)
-- [Video file](docs/assets/python-pipeline-demo.mp4) and [English captions](docs/assets/demo-captions.vtt)
-
-[![Python automation walkthrough](docs/assets/automation-poster.png)](https://titusrobinsonone.github.io/automation/)
-
-## Run the tests
+Python 3.10 or newer; the pipelines use only the standard library. Run from the repository root:
 
 ```bash
-python3 -m unittest discover -s src/tests -v
+python src/inventory_lab.py --output out/inventory
+python src/revenue_forensics.py --output out/revenue
+python src/experiment_studio.py --output out/experiment
+python src/survey_pipeline.py --generate-demo --output out/survey
 ```
 
-Six focused tests cover deduplication, metric denominators, row reconciliation, invalid inputs, source preservation and category validation.
+The three new pipelines also accept `--input your-file.csv`. Check each source file and the bundled example CSV for its required schema. Keep source files outside the output directory.
 
-## Run the dashboard locally
+The source bundles linked from each case study include the relevant engine, generated input/output data, a README and standalone tests. They run without this website.
+
+## Validate
 
 ```bash
-python3 -m http.server 8000 --directory docs
+python -m unittest discover -s src -p 'test_portfolio_projects.py' -v
+python -m unittest discover -s src/tests -v
+python src/validate_portfolio.py
+node src/check_frontend.mjs
 ```
 
-Open `http://localhost:8000/`. The dashboard loads the included pipeline JSON and recalculates KPIs for each filter selection. The quality panel always describes the full import.
+The 14 analytical checks cover chronological isolation, stock reconciliation, lead times, revenue movement classification, carry-forward state, duplicate isolation, interval arithmetic, allocation failure and guardrail precedence. Six additional survey-pipeline checks cover validation, metric denominators and source preservation. Frontend checks compare browser decision rules with the Python-generated results, and the content audit checks local links and metadata.
 
-## Project layout
+## Preview the website locally
 
-```text
-docs/             Static GitHub Pages site, media and downloadable data
-src/              Python pipeline, tests and media generator
-README.md         Project overview and run instructions
+```bash
+python -m http.server 8000 --directory docs
 ```
 
-The site uses vanilla HTML, CSS and JavaScript and custom SVG charts. GitHub Pages publishes the `docs` directory from `main`; no application server is needed. Regenerating the optional PDF/video assets additionally uses Pillow, ReportLab and FFmpeg.
+Open `http://localhost:8000/`. The website uses plain HTML, CSS, JavaScript and SVG. It has no framework, package installation, tracking, sign-in or third-party CDN requirement.
 
-The video is a paced walkthrough of the included script's actual output. It is not presented as a live execution recording or a production performance benchmark.
+## Edit and extend
+
+- **Profile, introduction and contact:** [docs/site.json](docs/site.json)
+- **Project order, cards, case-study copy and links:** [docs/projects.json](docs/projects.json)
+- **Visual styling:** [docs/portfolio.css](docs/portfolio.css)
+- **Shared page renderer:** [docs/portfolio.js](docs/portfolio.js)
+- **Interactive analyses:** [docs/demos.js](docs/demos.js)
+- **Step-by-step publishing and project template:** [EDITING.md](EDITING.md)
+
+Content edits do not require a build. Add one JSON project entry and a thumbnail to create a new card and case-study page automatically. GitHub Pages publishes `main` → `/docs` after a commit.
+
+## Regenerate the analytical assets
+
+```bash
+python src/build_portfolio.py
+```
+
+This re-creates synthetic data, SVG chart covers, project documentation and ZIP bundles. Use `--reuse-data` to repackage without rerunning the engines. The optional `--png` flag refreshes the social preview and requires Pillow; it is not needed to run the website or the analyses. The original survey PDF/video generator additionally uses Pillow, ReportLab and FFmpeg.
+
+## Interpretation boundaries
+
+- The inventory test describes policy trade-offs on one synthetic path. Its safety multiplier does not guarantee a service level, and its cost model is not full accounting profit.
+- The revenue model reports contracted end-of-month MRR, not cash or recognized revenue. It assumes one currency and stable segments.
+- The experiment examples are fixed-horizon, independent-user analyses. Threshold changes in the demo are sensitivity analysis; real thresholds should be chosen before launch. Device slices are descriptive.
+- The survey project is a web dashboard, not a Power BI deliverable. All market results are generated.
+
+Each case study includes its assumptions, evidence, limitations and relevant method references beside the results.

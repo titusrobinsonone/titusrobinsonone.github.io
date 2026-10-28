@@ -1,0 +1,1 @@
+{"name":"titus-robinson-portfolio","private":true,"type":"module","scripts":{"test":"node src/check_frontend.mjs"},"engines":{"node":">=20"}}
