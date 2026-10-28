@@ -104,4 +104,4 @@ The dashboard and walkthrough should present these as synthetic demonstration re
 
 ## Live portfolio
 
-[Interactive dashboard](https://titusrobinsonone.github.io/) · [Python walkthrough](https://titusrobinsonone.github.io/automation/) · [Source repository](https://github.com/titusrobinsonone/titusrobinsonone.github.io)
+[Interactive dashboard](https://titusrobinsonone.github.io/survey.html) · [Python walkthrough](https://titusrobinsonone.github.io/automation/) · [Source repository](https://github.com/titusrobinsonone/titusrobinsonone.github.io)
