@@ -1,0 +1,101 @@
+response_id,market,channel,submitted_at,completed,duration_seconds,satisfaction_score,source_row,reason
+SYN-000001,United States,Email,2026-08-06T16:09:00Z,true,147,5,7202,duplicate_id
+SYN-000002,United States,Email,2026-08-04T17:42:00Z,true,158,3,7203,duplicate_id
+SYN-000003,United States,Mobile,2026-08-08T18:13:00Z,true,197,5,7204,duplicate_id
+SYN-000004,United States,Web,2026-08-04T21:02:00Z,true,207,3,7205,duplicate_id
+SYN-000005,United States,Mobile,2026-08-04T20:47:00Z,true,176,5,7206,duplicate_id
+SYN-000006,United States,Web,2026-08-05T14:40:00Z,true,188,4,7207,duplicate_id
+SYN-000007,United States,Web,2026-08-06T19:07:00Z,true,205,4,7208,duplicate_id
+SYN-000008,United States,Web,2026-08-08T10:57:00Z,true,195,4,7209,duplicate_id
+SYN-000009,United States,Web,2026-08-03T21:07:00Z,true,117,2,7210,duplicate_id
+SYN-000010,United States,Web,2026-08-08T17:51:00Z,true,241,4,7211,duplicate_id
+SYN-000011,United States,Mobile,2026-08-07T21:09:00Z,true,213,5,7212,duplicate_id
+SYN-000012,United States,Web,2026-08-06T09:19:00Z,true,161,3,7213,duplicate_id
+SYN-000013,United States,Mobile,2026-08-06T11:55:00Z,true,219,4,7214,duplicate_id
+SYN-000014,United States,Email,2026-08-06T12:28:00Z,true,246,5,7215,duplicate_id
+SYN-000015,United States,Mobile,2026-08-05T09:58:00Z,true,248,4,7216,duplicate_id
+SYN-000016,United States,Mobile,2026-08-03T18:24:00Z,false,123,,7217,duplicate_id
+SYN-000017,United States,Web,2026-08-08T11:57:00Z,false,177,,7218,duplicate_id
+SYN-000018,United States,Web,2026-08-03T12:42:00Z,true,198,4,7219,duplicate_id
+SYN-000019,United States,Mobile,2026-08-06T21:37:00Z,false,217,,7220,duplicate_id
+SYN-000020,United States,Web,2026-08-03T10:35:00Z,true,201,5,7221,duplicate_id
+SYN-000021,United States,Email,2026-08-08T10:00:00Z,true,147,3,7222,duplicate_id
+SYN-000022,United States,Web,2026-08-04T15:48:00Z,true,178,5,7223,duplicate_id
+SYN-000023,United States,Mobile,2026-08-03T13:58:00Z,true,208,4,7224,duplicate_id
+SYN-000024,United States,Email,2026-08-03T14:29:00Z,true,173,3,7225,duplicate_id
+SYN-000025,United States,Email,2026-08-03T20:12:00Z,true,232,4,7226,duplicate_id
+SYN-000026,United States,Web,2026-08-06T17:05:00Z,true,222,4,7227,duplicate_id
+SYN-000027,United States,Web,2026-08-08T17:06:00Z,true,162,2,7228,duplicate_id
+SYN-000028,United States,Web,2026-08-07T17:32:00Z,true,202,4,7229,duplicate_id
+SYN-000029,United States,Mobile,2026-08-07T20:21:00Z,true,165,4,7230,duplicate_id
+SYN-000030,United States,Web,2026-08-04T21:32:00Z,true,203,5,7231,duplicate_id
+SYN-000031,United States,Web,2026-08-08T16:55:00Z,true,176,5,7232,duplicate_id
+SYN-000032,United States,Email,2026-08-06T12:52:00Z,true,210,4,7233,duplicate_id
+SYN-000033,United States,Web,2026-08-08T11:42:00Z,true,232,4,7234,duplicate_id
+SYN-000034,United States,Email,2026-08-06T22:33:00Z,true,143,3,7235,duplicate_id
+SYN-000035,United States,Web,2026-08-07T18:52:00Z,true,164,5,7236,duplicate_id
+SYN-000036,United States,Email,2026-08-03T20:59:00Z,false,141,,7237,duplicate_id
+SYN-000037,United States,Mobile,2026-08-06T21:51:00Z,true,185,4,7238,duplicate_id
+SYN-000038,United States,Mobile,2026-08-03T22:19:00Z,false,207,,7239,duplicate_id
+SYN-000039,United States,Mobile,2026-08-06T22:34:00Z,true,200,4,7240,duplicate_id
+SYN-000040,United States,Web,2026-08-03T08:27:00Z,true,238,4,7241,duplicate_id
+SYN-000041,United States,Web,2026-08-04T12:21:00Z,true,153,4,7242,duplicate_id
+SYN-000042,United States,Web,2026-08-08T19:08:00Z,true,114,5,7243,duplicate_id
+SYN-000043,United States,Web,2026-08-03T12:54:00Z,false,180,,7244,duplicate_id
+SYN-000044,United States,Web,2026-08-09T14:21:00Z,true,152,4,7245,duplicate_id
+SYN-000045,United States,Web,2026-08-09T19:42:00Z,true,260,4,7246,duplicate_id
+SYN-000046,United States,Web,2026-08-05T08:01:00Z,true,183,4,7247,duplicate_id
+SYN-000047,United States,Web,2026-08-03T09:29:00Z,true,179,4,7248,duplicate_id
+SYN-000048,United States,Mobile,2026-08-06T10:47:00Z,true,221,3,7249,duplicate_id
+,United Kingdom,Web,2026-08-08T14:43:00Z,false,240,,7250,missing_id
+,United Kingdom,Web,2026-08-09T20:26:00Z,true,199,2,7251,missing_id
+,United Kingdom,Mobile,2026-08-06T20:41:00Z,true,213,3,7252,missing_id
+,United Kingdom,Mobile,2026-08-04T17:31:00Z,false,180,,7253,missing_id
+,United Kingdom,Web,2026-08-04T20:41:00Z,true,129,4,7254,missing_id
+,United Kingdom,Mobile,2026-08-06T18:17:00Z,true,194,4,7255,missing_id
+,United Kingdom,Web,2026-08-06T13:07:00Z,true,135,4,7256,missing_id
+,United Kingdom,Web,2026-08-05T21:51:00Z,true,229,1,7257,missing_id
+,United Kingdom,Web,2026-08-05T14:40:00Z,false,173,,7258,missing_id
+,United Kingdom,Web,2026-08-08T18:03:00Z,true,173,4,7259,missing_id
+,United Kingdom,Email,2026-08-06T14:02:00Z,true,128,4,7260,missing_id
+,United Kingdom,Web,2026-08-07T15:00:00Z,true,196,4,7261,missing_id
+,United Kingdom,Email,2026-08-09T15:08:00Z,false,163,,7262,missing_id
+,United Kingdom,Email,2026-08-07T09:18:00Z,true,166,5,7263,missing_id
+,United Kingdom,Mobile,2026-08-08T12:32:00Z,true,175,5,7264,missing_id
+,United Kingdom,Web,2026-08-05T15:19:00Z,false,195,,7265,missing_id
+,United Kingdom,Email,2026-08-07T18:31:00Z,true,162,4,7266,missing_id
+,United Kingdom,Mobile,2026-08-06T08:51:00Z,true,190,4,7267,missing_id
+,United Kingdom,Email,2026-08-05T16:25:00Z,true,247,5,7268,missing_id
+,United Kingdom,Mobile,2026-08-07T12:01:00Z,true,149,4,7269,missing_id
+,United Kingdom,Web,2026-08-07T16:19:00Z,true,153,5,7270,missing_id
+,United Kingdom,Web,2026-08-08T20:54:00Z,false,229,,7271,missing_id
+,United Kingdom,Web,2026-08-03T09:36:00Z,true,196,3,7272,missing_id
+,United Kingdom,Email,2026-08-08T09:56:00Z,true,191,4,7273,missing_id
+SYN-ERR-SCORE-001,United States,Email,2026-08-06T16:09:00Z,true,147,9,7274,invalid_satisfaction_score
+SYN-ERR-SCORE-002,United States,Email,2026-08-04T17:42:00Z,true,158,9,7275,invalid_satisfaction_score
+SYN-ERR-SCORE-003,United States,Mobile,2026-08-08T18:13:00Z,true,197,9,7276,invalid_satisfaction_score
+SYN-ERR-SCORE-004,United States,Web,2026-08-04T21:02:00Z,true,207,9,7277,invalid_satisfaction_score
+SYN-ERR-SCORE-005,United States,Mobile,2026-08-04T20:47:00Z,true,176,9,7278,invalid_satisfaction_score
+SYN-ERR-SCORE-006,United States,Web,2026-08-05T14:40:00Z,true,188,9,7279,invalid_satisfaction_score
+SYN-ERR-SCORE-007,United States,Web,2026-08-06T19:07:00Z,true,205,9,7280,invalid_satisfaction_score
+SYN-ERR-SCORE-008,United States,Web,2026-08-08T10:57:00Z,true,195,9,7281,invalid_satisfaction_score
+SYN-ERR-SCORE-009,United States,Web,2026-08-03T21:07:00Z,true,117,9,7282,invalid_satisfaction_score
+SYN-ERR-SCORE-010,United States,Web,2026-08-08T17:51:00Z,true,241,9,7283,invalid_satisfaction_score
+SYN-ERR-SCORE-011,United States,Mobile,2026-08-07T21:09:00Z,true,213,9,7284,invalid_satisfaction_score
+SYN-ERR-SCORE-012,United States,Web,2026-08-06T09:19:00Z,true,161,9,7285,invalid_satisfaction_score
+SYN-ERR-SCORE-013,United States,Mobile,2026-08-06T11:55:00Z,true,219,9,7286,invalid_satisfaction_score
+SYN-ERR-SCORE-014,United States,Email,2026-08-06T12:28:00Z,true,246,9,7287,invalid_satisfaction_score
+SYN-ERR-SCORE-015,United States,Mobile,2026-08-05T09:58:00Z,true,248,9,7288,invalid_satisfaction_score
+SYN-ERR-SCORE-016,United States,Web,2026-08-03T12:42:00Z,true,198,9,7289,invalid_satisfaction_score
+SYN-ERR-SCORE-017,United States,Web,2026-08-03T10:35:00Z,true,201,9,7290,invalid_satisfaction_score
+SYN-ERR-SCORE-018,United States,Email,2026-08-08T10:00:00Z,true,147,9,7291,invalid_satisfaction_score
+SYN-ERR-DURATION-001,Canada,Web,2026-08-07T11:30:00Z,true,-5,4,7292,invalid_duration
+SYN-ERR-DURATION-002,Canada,Web,2026-08-06T09:22:00Z,true,-5,4,7293,invalid_duration
+SYN-ERR-DURATION-003,Canada,Web,2026-08-04T09:50:00Z,true,-5,4,7294,invalid_duration
+SYN-ERR-DURATION-004,Canada,Web,2026-08-04T12:46:00Z,false,-5,,7295,invalid_duration
+SYN-ERR-DURATION-005,Canada,Email,2026-08-03T20:54:00Z,true,-5,3,7296,invalid_duration
+SYN-ERR-DURATION-006,Canada,Email,2026-08-06T13:37:00Z,true,-5,4,7297,invalid_duration
+SYN-ERR-DURATION-007,Canada,Email,2026-08-09T21:18:00Z,true,-5,4,7298,invalid_duration
+SYN-ERR-DURATION-008,Canada,Mobile,2026-08-06T14:03:00Z,true,-5,1,7299,invalid_duration
+SYN-ERR-DURATION-009,Canada,Email,2026-08-09T17:23:00Z,false,-5,,7300,invalid_duration
+SYN-ERR-DURATION-010,Canada,Mobile,2026-08-05T16:27:00Z,true,-5,4,7301,invalid_duration

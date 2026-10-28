@@ -1,0 +1,40 @@
+{
+  "label": "Synthetic portfolio demonstration",
+  "inputRows": 7300,
+  "cleanRows": 7200,
+  "rejectedRows": 100,
+  "seed": 20261028,
+  "periodStart": "2026-08-03",
+  "periodEnd": "2026-10-25",
+  "inputSha256": "515e2aca66d7b3afa3cf9c115784caef953ab2491ad69453a72e0f5132bdee82",
+  "quality": [
+    {
+      "reason": "duplicate_id",
+      "label": "Duplicate response ID",
+      "count": 48
+    },
+    {
+      "reason": "missing_id",
+      "label": "Missing response ID",
+      "count": 24
+    },
+    {
+      "reason": "invalid_satisfaction_score",
+      "label": "Missing or invalid satisfaction score",
+      "count": 18
+    },
+    {
+      "reason": "invalid_duration",
+      "label": "Invalid duration (outside 15\u20131,800 seconds)",
+      "count": 10
+    }
+  ],
+  "files": [
+    "survey_raw.csv",
+    "survey_clean.csv",
+    "survey_rejected.csv",
+    "survey_summary.csv",
+    "portfolio-data.json",
+    "pipeline-run.txt"
+  ]
+}

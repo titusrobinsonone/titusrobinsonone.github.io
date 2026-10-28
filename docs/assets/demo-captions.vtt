@@ -1,0 +1,24 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.000
+Titus Robinson: a synthetic survey data-quality pipeline.
+7,300 input rows, 7,200 validated responses, 100 isolated rows.
+
+00:00:06.000 --> 00:00:12.000
+Run the included Python script with one command.
+Generate deterministic synthetic data, then validate the schema and response fields.
+
+00:00:12.000 --> 00:00:17.000
+The actual run isolates duplicate IDs, missing IDs, invalid satisfaction scores and invalid durations.
+
+00:00:17.000 --> 00:00:27.000
+48 duplicate IDs, 24 missing IDs, 18 invalid scores and 10 invalid durations.
+Each flagged row retains a reason in a separate export.
+
+00:00:27.000 --> 00:00:34.000
+The totals reconcile: 7,300 input equals 7,200 clean plus 100 flagged.
+Export clean data, market summaries, dashboard JSON and an audit trail.
+
+00:00:34.000 --> 00:00:38.000
+Reproducible code. Auditable outputs.
+Explore the dashboard and download the Python source, synthetic data and tests.

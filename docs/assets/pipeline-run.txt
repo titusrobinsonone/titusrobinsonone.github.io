@@ -1,0 +1,15 @@
+SURVEY QUALITY → BI EXPORT
+Synthetic portfolio demonstration
+[1/4] Loaded 7,300 rows from survey_raw.csv
+[2/4] Validated 7,200 usable rows; isolated 100 flagged rows
+       48  Duplicate response ID
+       24  Missing response ID
+       18  Missing or invalid satisfaction score
+       10  Invalid duration (outside 15–1,800 seconds)
+[3/4] Aggregated 6 markets, 12 weeks and 3 channels
+[4/4] Exported clean CSV, rejected CSV, market summary and dashboard JSON
+RECONCILED: 7,300 input = 7,200 clean + 100 flagged
+COMPLETION: 87.68%  |  CSAT: 76.29%
+MEDIAN COMPLETION TIME: 188 seconds
+INPUT SHA-256: 515e2aca66d7b3afa3cf9c115784caef953ab2491ad69453a72e0f5132bdee82
+SUCCESS: source preserved; outputs ready for analysis
