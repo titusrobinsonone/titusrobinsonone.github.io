@@ -1,6 +1,6 @@
 # Demand & Inventory Lab
 
-Portfolio owner and maintainer: **Titus Robinson**. Independent, AI-assisted portfolio implementation, created October 2026. All bundled inputs and results are synthetic.
+Author: **Titus Robinson** (October 2026). All bundled inputs and results are synthetic.
 
 Stockouts lose sales, but excess stock ties up cash. A forecast accuracy score alone does not tell an operations team which replenishment policy to use.
 

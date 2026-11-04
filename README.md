@@ -4,7 +4,7 @@
 
 Six inspectable projects connecting a business question to runnable analysis, interactive reporting and clear limitations.
 
-Portfolio owner and maintainer: **Titus Robinson**. These are independent, AI-assisted portfolio implementations created in October and November 2026. **Salary Survey Data Quality & Privacy** uses real, public survey data (the 2021 Ask a Manager Salary Survey, via TidyTuesday). The other five use synthetic demonstration data. None of them are employer data, client work or measured workplace improvements.
+Designed and built by **Titus Robinson** (October–November 2026), with AI coding assistance (Claude) for parts of the implementation; every project is reproducible and tested. **Salary Survey Data Quality & Privacy** uses real, public survey data (the 2021 Ask a Manager Salary Survey, via TidyTuesday). The other five use synthetic demonstration data. None of them are employer data, client work or measured workplace improvements.
 
 ![Portfolio preview](docs/assets/portfolio-cover.png)
 

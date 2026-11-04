@@ -66,4 +66,4 @@ Every verdict and the reason for each miss are in [`docs/assets/salary-qa/codefr
 - **Coding is rule-based.** It's transparent and testable, but it misses paraphrases. An LLM or embedding pass could raise coverage, as long as it's checked against the same hand-reviewed sample.
 - **k-anonymity is an indicator, not a guarantee.** It doesn't cover attribute disclosure or linkage with outside data.
 
-Built by Titus Robinson with AI-assisted implementation. The data is public and not employer or client data.
+Author: **Titus Robinson** (November 2026). The data is public and not employer or client data.

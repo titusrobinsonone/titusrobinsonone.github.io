@@ -63,8 +63,6 @@ Run `python src/validate_portfolio.py` and the checks in the root README. For co
 
 After committing, GitHub **Actions → pages build and deployment** should finish successfully. Refresh the public page once the deployment completes. If needed, revert the commit through GitHub to restore the prior version.
 
-## Design and attribution
+## Attribution
 
-The layout takes inspiration from the clean editorial gallery in the supplied reference. Its code, monogram, charts and project presentation are independent. No reference-site portrait, logo, article or proprietary data is used.
-
-Titus Robinson is the portfolio owner and maintainer. The projects were created with AI-assisted implementation, and their credibility rests on reproducible source, explicit assumptions and verified behavior. Do not present synthetic results as production savings or client outcomes.
+Titus Robinson designed, built and maintains this portfolio. AI coding assistance (Claude) was used for parts of the implementation and is credited as co-author on those commits. Synthetic results are never presented as production savings or client outcomes.

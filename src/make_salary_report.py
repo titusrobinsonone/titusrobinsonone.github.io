@@ -138,7 +138,7 @@ th{{color:var(--muted);font-weight:600}}td.n{{text-align:right;font-variant-nume
 <div class="card">{bars(ind, "", color="#2f5d50")}</div>
 
 <h2>Method, limits and source</h2>
-<p class="note">Source: Ask a Manager Salary Survey 2021, republished by the TidyTuesday project (2021-05-18). Respondents self-selected; currency conversion uses approximate 2021 average rates and is not used for the headline numbers. The codeframe is rule-based and transparent; it is a first pass that a coder would extend. Code, tests and full method: <a href="https://github.com/titusrobinsonone/titusrobinsonone.github.io/blob/main/src/SALARY_QA_README.md">GitHub</a>. Built by Titus Robinson with AI-assisted implementation.</p>
+<p class="note">Source: Ask a Manager Salary Survey 2021, republished by the TidyTuesday project (2021-05-18). Respondents self-selected; currency conversion uses approximate 2021 average rates and is not used for the headline numbers. The codeframe is rule-based and transparent; it is a first pass that a coder would extend. Code, tests and full method: <a href="https://github.com/titusrobinsonone/titusrobinsonone.github.io/blob/main/src/SALARY_QA_README.md">GitHub</a>. By Titus Robinson.</p>
 </main></body></html>"""
     (DOCS / "salary-qa.html").write_text(page, encoding="utf-8")
 

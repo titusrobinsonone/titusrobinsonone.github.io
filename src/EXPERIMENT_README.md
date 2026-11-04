@@ -1,6 +1,6 @@
 # Experiment Decision Studio
 
-Portfolio owner and maintainer: **Titus Robinson**. Independent, AI-assisted portfolio implementation, created October 2026. All bundled inputs and results are synthetic.
+Author: **Titus Robinson** (October 2026). All bundled inputs and results are synthetic.
 
 A positive lift can be small, uncertain or caused by broken telemetry. A conversion gain can also come with unacceptable product errors.
 

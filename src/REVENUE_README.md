@@ -1,6 +1,6 @@
 # Subscription Revenue Forensics
 
-Portfolio owner and maintainer: **Titus Robinson**. Independent, AI-assisted portfolio implementation, created October 2026. All bundled inputs and results are synthetic.
+Author: **Titus Robinson** (October 2026). All bundled inputs and results are synthetic.
 
 A single recurring-revenue total can hide churn, contraction and reactivation. Duplicate events can also inflate reporting unless the transformation is auditable.
 
