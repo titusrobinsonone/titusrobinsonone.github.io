@@ -1,0 +1,101 @@
+sample_index,row_id,code,verdict,note,text
+0,3620,Currency / location / remote,correct,,"i have both freelance writing and freelance social media clients. also, i work remotely."
+1,10375,Hours / schedule,correct,,"I am paid hourly at $17/hour, roughly 40 hours/week"
+2,17378,Hourly / part-time / contract,correct,,Base 9-month contract. Up to 11k for summer teaching IF classes make.
+3,17724,Commission / sales,correct,,Commission input as “bonus”
+4,23684,Equity / stock,correct,,"an additional $700,000/year in RSUs"
+5,3156,Bonus / incentive,correct,,"3% or more bonus eligible, 0-5 hours OT per week"
+6,7098,Hourly / part-time / contract,correct,,"21.63/hr, no PTO or holidays, work from April-December"
+7,21647,Overtime / shift pay (none),correct,,"I ""work"" 35 hours a week, or at least that's what I'm paid for and we no longer qualify for overtime. That was slashed during COVID."
+8,22758,Tips / gratuity,correct,,the majority of my income is from tips
+9,19658,Bonus / incentive,correct,,Bonus
+10,14080,Equity / stock,correct,,Bonus calc is RSUs every 6 mo
+11,20265,Hourly / part-time / contract,wrong,"'presented with a contract' is an offer, not contract work","Resident physicians have no power to negotiate or choose where they work. They get the job through a nationwide algorithm, are presented with a contract, and are obligated to sign it. It's the only way to become a practicing physician after medical school in the United States."
+12,19182,Hourly / part-time / contract,correct,,Freelance
+13,16953,Equity / stock,correct,,Salary + stock
+14,21002,Bonus / incentive,correct,,I can bonus up to 12.5% of my salary but usually do not
+15,14922,Hourly / part-time / contract,correct,,"I have been in this role two weeks and worked 12 hours; I anticipate a maximum of 20 hours per week, all flex time at a 28 dollar per hour rate"
+16,7793,Hourly / part-time / contract,wrong,"per-hour shift bonus is shift pay, not hourly pay",I receive a dollar per hour bonus for working a shift that starts after 12pm.
+17,165,Bonus / incentive,correct,,The bonus fluctuates depending on company performance.
+18,22288,Commission / sales,wrong,"company sales goal bonus is a bonus, not commission",Bonus if company makes sales goals
+19,2581,Bonus / incentive,correct,,Bonus was Covid related
+20,3449,Hourly / part-time / contract,correct,,"Part-time, about 20 hours/week"
+21,9530,Hourly / part-time / contract,correct,,"Hourly paid contractor, no benefits, paid leave, sick pay or pension"
+22,3072,Raise / pay change,correct,,"This is after 11 years of work, including one promotion. (The ""senior"" part of the job title.)"
+23,15269,Benefits / pension,correct,,"6% 401k match, company removed Profit Sharing for 2021"
+24,453,Public sector / union scale,correct,,"In a union on a salary grid, so I get annual raises from where I currently am until the max of approximately 62,000"
+25,25065,Currency / location / remote,correct,,"Country with very high taxes and cost of living, so salary is adapted to match"
+26,16932,Raise / pay change,correct,,Salary was 47000 before Covid-induced salary cuts
+27,24831,Hours / schedule,wrong,"overtime hours, not a schedule statement","Average about 10 hours of OT a week, but haven’t been here long enough to know about bonuses so I averaged it out."
+28,10245,Equity / stock,correct,,I also receive shares of the company
+29,6558,Bonus / incentive,correct,,"quarterly bonus, year end profit sharing"
+30,13275,Bonus / incentive,correct,,"20% bonus, and private company RSUs priced at current value"
+31,8167,Equity / stock (none),wrong,'not 40' negation leaked into the next sentence about stock,"There are peaks and valleys to demand but on average, work time per week is closer to 55-60 hours required, not 40.  Bonus / stock amount can be highly variable based on business and personal performance."
+32,11392,Hourly / part-time / contract,correct,,"Hourly, no guaranteed minimum"
+33,11650,Overtime / shift pay,correct,,"Overtime is likely necessary, but I don’t have that data yet"
+34,12397,Public sector / union scale,correct,,7.7 percent of my pay goes to a pension fund (I work for the state)
+35,17770,Bonus / incentive,correct,,"Additional comp is merit & company profitability based bonus target, could be higher or lower in actuality"
+36,23429,Benefits / pension,correct,,"Tuition waiver for 6 credit hours per semester included, which would technically be an additional $18k value"
+37,2532,Commission / sales,correct,,"Typically this position has an hourly base pay + commission pay structure with the opportunity for bonuses. My agent, however, pays minimal commission on new business production and no bonuses."
+38,11068,Benefits / pension (none),wrong,"'did not include superannuation' means excluded from the figure, not absent",Did not include Superannuation- 9.5% of salary paid by employer
+39,2858,Bonus / incentive,correct,,Also receive stock options and grants as additional compensation and retention bonuses
+40,19686,Bonus / incentive,correct,,Annual bonuses vary
+41,18645,Equity / stock,correct,,Additional stock compensation.
+42,9661,Bonus / incentive,correct,,$6000 research account (tied to teaching) and $10000 administrative bonus
+43,9543,Underpaid / pay fairness,correct,,"Small business, and I'm definitely underpaid"
+44,15583,Hourly / part-time / contract,correct,,"Based on the hourly rate, very unlikely to work 40 hours a week 52 weeks a year"
+45,4316,Benefits / pension,correct,,Additional $23K in insurance and retirement benefits
+46,23632,Equity / stock,correct,,"I work in recruitment consulting so I don't get equity or benefits, just cash. I worked in SF startups previously and made ~350k/yr including equity, but that wasn't liquid at the time (company had successful exit). My current job allows for part time work so I get paid hourly at $125/hour."
+47,26050,Bonus / incentive,correct,,salary + company wide cash bonus + individual stock grant
+48,20516,Hourly / part-time / contract,correct,,"part-time, hourly (could never make this rate if working full time)"
+49,10053,Hourly / part-time / contract,correct,,"I work part-time, about 0.5 FTE (20 hrs/wk). When I took the role, it was offered that I could also work 0.5 FTE in another office to get up to 1.0 FTE, but I declined. My boss has repeatedly offered me 1.0 FTE in my office, and I have repeatedly declined, as I am also taking university classes part"
+50,951,Benefits / pension,correct,,Company pays 100% of my and my family's health and dental benefits
+51,12139,Benefits / pension,correct,,Also entitled to full food stamps ($204 per month) and health insurance with no monthly payment
+52,11952,Hours / schedule,correct,,London-based - higher wages. 35 hour week is full time in UK so haven't made pro-rata for 40 hours
+53,15739,Bonus / incentive,correct,,Additional comp is four years vested stock in Google plus a 15% annual bonus.
+54,14146,Bonus / incentive,correct,,"My bonus is both merit and company performance based. The average is 10% of my annual pay, but payouts often stretch above when the company is doing well"
+55,2897,Hourly / part-time / contract,correct,,Hourly with an annual bonus of at least 5% of my income from the previous 12 months
+56,13358,Hourly / part-time / contract,correct,,Part time no benefits
+57,20983,Equity / stock,correct,,Bonus >= 15% of salary each year. Other additional income comes from stock grants.
+58,19552,Bonus / incentive,correct,,Bonus is dependent on personal and company performance
+59,17206,Bonus / incentive,correct,,"Split 35k bonus, 60k RSU vesting"
+60,3577,Overtime / shift pay (none),correct,,"Hourly, not allowed overtime but always 40 hours"
+61,14256,Equity / stock (none),wrong,"'does not include stock options' means excluded, not absent",Does not include $3k stock options
+62,17519,Benefits / pension,correct,,Salary + HSA stipend
+63,21607,Equity / stock,correct,,Bonus is primarily RSUs
+64,16980,Bonus / incentive,correct,,"I work 37 hours a week, but we make bonus on certain sales, and I get a manager bonus each quarter if we hit certain criteria"
+65,13303,Underpaid / pay fairness,correct,,I am underpaid for my industry but we have a generous benefits package
+66,18191,Currency / location / remote,correct,,I work remotely
+67,8478,Hourly / part-time / contract,correct,,"Part time, 24 hours per week"
+68,14072,Equity / stock,correct,,I get base salary + RSUs
+69,19919,Benefits / pension,correct,,"$3000 is profit sharing that goes toward my 401k. I also got a $15000 signing bonus (one time), and stock options (not able to liquidate unless we get acquired/bought out, or in the unlikely event we go public)"
+70,16560,Hourly / part-time / contract,correct,,"Hourly, dependent on work availability (technically freelance)"
+71,17755,Equity / stock,correct,,My additional monetary compensation is in pre-IPO Stock.
+72,17991,Bonus / incentive,correct,,Bonus and stock
+73,987,Bonus / incentive,correct,,"Plus discretionary annual bonus (2020 had zero bonuses due to pandemic, so did not include here - in the past bonuses were around $3000)"
+74,20443,Equity / stock,correct,,Additional income is RSUs
+75,7217,Hourly / part-time / contract,correct,,Getting paid $40 an hour as a contractor.
+76,3892,Hourly / part-time / contract,correct,,Part time work for one organization
+77,1644,Bonus / incentive,correct,,bonuses are variable; I've also received bonuses for certifications obtained
+78,26097,Commission / sales,correct,,Also get commission for sales but that varies widely month to month
+79,18152,Overtime / shift pay,wrong,equity refresher text matched overtime pattern,I received a new hire equity grant when I first joined and will continue to receive annual “refreshers”. The equity grant/refreshers are RSUs that vest in increments every month of service and fully vest over the next few years. I am eligible for a performance based bonus of up to 10% of my base. I 
+80,24594,Benefits / pension,correct,,"Health insurance, occupational pension and employer contributes 10%/month"
+81,22837,Tips / gratuity,correct,,Extra money in earlier question comes mostly from tips.
+82,14393,Bonus / incentive,correct,,Standardized first-year post-MBA salary; 75% of top bonus amount and retirement contribution included in additional monetary compensation. One-time signing bonus (CAD$30k) and one-time relocation amount (CAD$5k) not included.
+83,16234,Equity / stock,correct,,"I also receive RSU's (~$250k/yr value).  And there are cash benefits like them reimbursing me for daycare costs, gym, internet service, home office setup, etc - total for that is ~$5k/yr."
+84,4371,Commission / sales,correct,,tiered bonus based on sales performance
+85,16657,Benefits / pension,correct,,"fully covered healthcare, 4% matching 401k, RSUs, and ESPPs."
+86,7325,Commission / sales,correct,,I am full commission I don’t have a base salary. My salary ranges from 120k-160k annually.
+87,3691,Bonus / incentive,correct,,Add'l income = bonus based on profits over a certain amount
+88,23059,Equity / stock,correct,,I also vest 25k company equity a year
+89,25859,Bonus / incentive,correct,,"Bonus changes based on prior year company performance, company safety #s, and my evaluation performance"
+90,15575,Overtime / shift pay,correct,,I get around $100 of overtime each week.
+91,24706,Equity / stock,correct,,additional income includes bonus and stock vesting
+92,16197,Benefits / pension (none),correct,,"I am a contract worker through a staffing agency, so no benefits."
+93,19053,Bonus / incentive,correct,,Bonus is a target and depends on performance
+94,8165,Side income / second job,correct,,Occasional $1-3K bumps from adjunct teaching in a different department
+95,19782,Equity / stock,correct,,"the majority of my income comes from company stock, which fluctuates in value but has been doing very well overall (hence high additional comp #)"
+96,13449,Bonus / incentive,correct,,Combination of cash bonus and deferred equity compensation
+97,24586,Bonus / incentive,correct,,additional is bonus and stock
+98,10024,Equity / stock,correct,,Extra income: $20k bonus + $40k equity
+99,19208,Currency / location / remote,correct,,Moving Relocation +Signing Bonus

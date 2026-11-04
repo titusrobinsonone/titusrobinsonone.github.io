@@ -1,0 +1,1044 @@
+row_id,rule,severity,field,value
+12,us_state_missing,warn,state_raw,
+23,us_state_missing,warn,state_raw,
+73,us_state_missing,warn,state_raw,
+99,salary_likely_in_thousands_or_hourly,reject,salary_raw,58
+134,us_state_missing,warn,state_raw,
+135,us_state_missing,warn,state_raw,
+151,us_state_missing,warn,state_raw,
+168,salary_likely_in_thousands_or_hourly,reject,salary_raw,35
+173,us_state_missing,warn,state_raw,
+193,us_state_missing,warn,state_raw,
+205,us_state_missing,warn,state_raw,
+219,us_state_missing,warn,state_raw,
+226,us_state_missing,warn,state_raw,
+276,us_state_missing,warn,state_raw,
+280,us_state_missing,warn,state_raw,
+354,us_state_missing,warn,state_raw,
+389,us_state_missing,warn,state_raw,
+400,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+422,us_state_missing,warn,state_raw,
+452,field_exp_exceeds_overall,warn,exp_field,21 - 30 years > 11 - 20 years
+455,us_state_missing,warn,state_raw,
+459,us_state_missing,warn,state_raw,
+463,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 2 - 4 years
+469,us_state_missing,warn,state_raw,
+477,us_state_missing,warn,state_raw,
+491,us_state_missing,warn,state_raw,
+538,us_state_missing,warn,state_raw,
+546,us_state_missing,warn,state_raw,
+552,us_state_missing,warn,state_raw,
+602,country_unresolved,warn,country_raw,ISA
+603,us_state_missing,warn,state_raw,
+606,us_state_missing,warn,state_raw,
+626,field_exp_exceeds_overall,warn,exp_field,41 years or more > 2 - 4 years
+684,usd_outside_us,warn,currency,USD in United Kingdom
+715,us_state_missing,warn,state_raw,
+741,experience_exceeds_age,warn,exp_overall,31 - 40 years at age 35-44
+741,us_state_missing,warn,state_raw,
+765,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+804,us_state_missing,warn,state_raw,
+811,us_state_missing,warn,state_raw,
+832,experience_exceeds_age,warn,exp_overall,31 - 40 years at age 18-24
+856,us_state_missing,warn,state_raw,
+858,us_state_missing,warn,state_raw,
+868,us_state_missing,warn,state_raw,
+871,us_state_missing,warn,state_raw,
+892,us_state_missing,warn,state_raw,
+897,salary_likely_in_thousands_or_hourly,reject,salary_raw,38
+944,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 5-7 years
+970,salary_likely_in_thousands_or_hourly,reject,salary_raw,61
+979,us_state_missing,warn,state_raw,
+992,us_state_missing,warn,state_raw,
+1019,usd_outside_us,warn,currency,USD in Canada
+1032,salary_below_10k_usd,warn,salary_raw,"4,400"
+1033,us_state_missing,warn,state_raw,
+1035,us_state_missing,warn,state_raw,
+1056,usd_outside_us,warn,currency,USD in Canada
+1083,us_state_missing,warn,state_raw,
+1087,us_state_missing,warn,state_raw,
+1112,us_state_missing,warn,state_raw,
+1167,us_state_missing,warn,state_raw,
+1173,us_state_missing,warn,state_raw,
+1209,us_state_missing,warn,state_raw,
+1232,us_state_missing,warn,state_raw,
+1238,us_state_missing,warn,state_raw,
+1268,us_state_missing,warn,state_raw,
+1330,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+1342,us_state_missing,warn,state_raw,
+1371,us_state_missing,warn,state_raw,
+1374,us_state_missing,warn,state_raw,
+1376,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+1401,us_state_missing,warn,state_raw,
+1417,usd_outside_us,warn,currency,USD in France
+1454,us_state_missing,warn,state_raw,
+1461,us_state_missing,warn,state_raw,
+1494,field_exp_exceeds_overall,warn,exp_field,41 years or more > 8 - 10 years
+1516,us_state_missing,warn,state_raw,
+1530,us_state_missing,warn,state_raw,
+1552,us_state_missing,warn,state_raw,
+1561,us_state_missing,warn,state_raw,
+1609,salary_likely_in_thousands_or_hourly,reject,salary_raw,130
+1610,us_state_missing,warn,state_raw,
+1621,us_state_missing,warn,state_raw,
+1668,us_state_missing,warn,state_raw,
+1674,us_state_missing,warn,state_raw,
+1687,us_state_missing,warn,state_raw,
+1690,us_state_missing,warn,state_raw,
+1709,us_state_missing,warn,state_raw,
+1712,us_state_missing,warn,state_raw,
+1737,us_state_missing,warn,state_raw,
+1783,us_state_missing,warn,state_raw,
+1796,us_state_missing,warn,state_raw,
+1798,us_state_missing,warn,state_raw,
+1824,us_state_missing,warn,state_raw,
+1861,us_state_missing,warn,state_raw,
+1918,us_state_missing,warn,state_raw,
+1927,us_state_missing,warn,state_raw,
+1931,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+1932,us_state_missing,warn,state_raw,
+1962,us_state_missing,warn,state_raw,
+1968,us_state_missing,warn,state_raw,
+1973,country_unresolved,warn,country_raw,Contracts
+1984,us_state_missing,warn,state_raw,
+2004,us_state_missing,warn,state_raw,
+2013,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 2 - 4 years
+2013,us_state_missing,warn,state_raw,
+2049,us_state_missing,warn,state_raw,
+2064,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 21 - 30 years
+2188,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+2231,salary_likely_in_thousands_or_hourly,reject,salary_raw,33
+2251,country_unresolved,warn,country_raw,"We don't get raises, we get quarterly bonuses, but they periodically asses income in the area you work, so I got a raise"
+2275,field_exp_exceeds_overall,warn,exp_field,21 - 30 years > 5-7 years
+2289,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+2291,us_multiple_states,warn,state_raw,"Kentucky, Ohio"
+2337,us_multiple_states,warn,state_raw,"District of Columbia, Virginia"
+2339,us_state_missing,warn,state_raw,
+2378,us_state_missing,warn,state_raw,
+2385,us_multiple_states,warn,state_raw,"District of Columbia, Maryland"
+2464,experience_exceeds_age,warn,exp_overall,21 - 30 years at age under 18
+2473,usd_outside_us,warn,currency,USD in Japan
+2495,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+2520,usd_outside_us,warn,currency,USD in Germany
+2534,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+2588,usd_outside_us,warn,currency,USD in Japan
+2641,currency_unresolved,reject,currency_other,BR$
+2653,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 2 - 4 years
+2696,us_state_missing,warn,state_raw,
+2748,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+2756,us_state_missing,warn,state_raw,
+2778,country_unresolved,warn,country_raw,Global
+2887,us_multiple_states,warn,state_raw,"Arizona, Washington"
+2893,us_multiple_states,warn,state_raw,"Georgia, New York"
+2986,us_state_missing,warn,state_raw,
+3022,us_multiple_states,warn,state_raw,"California, Colorado"
+3044,us_state_missing,warn,state_raw,
+3047,us_state_missing,warn,state_raw,
+3054,usd_outside_us,warn,currency,USD in United Kingdom
+3076,us_multiple_states,warn,state_raw,"California, Oregon"
+3086,us_multiple_states,warn,state_raw,"Kentucky, Ohio"
+3100,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+3104,us_multiple_states,warn,state_raw,"District of Columbia, Maryland, Pennsylvania, Virginia"
+3144,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 5-7 years
+3218,us_state_missing,warn,state_raw,
+3255,us_multiple_states,warn,state_raw,"Arizona, California"
+3258,us_multiple_states,warn,state_raw,"North Carolina, Utah"
+3314,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 2 - 4 years
+3323,field_exp_exceeds_overall,warn,exp_field,21 - 30 years > 11 - 20 years
+3416,usd_outside_us,warn,currency,USD in United Kingdom
+3493,currency_country_conflict,warn,currency,CHF in Canada
+3501,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 5-7 years
+3536,experience_exceeds_age,warn,exp_overall,21 - 30 years at age 25-34
+3547,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+3596,currency_country_conflict,warn,currency,EUR in United States
+3607,salary_above_5m_usd,reject,salary_raw,"102,000,000"
+3616,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+3673,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 5-7 years
+3709,us_multiple_states,warn,state_raw,"Ohio, Wyoming"
+3889,salary_below_10k_usd,warn,salary_raw,"4,000"
+3920,us_multiple_states,warn,state_raw,"Georgia, Tennessee"
+3935,currency_country_conflict,warn,currency,SEK in United States
+3935,salary_below_10k_usd,warn,salary_raw,"28,000"
+3948,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+3962,us_state_missing,warn,state_raw,
+3990,us_multiple_states,warn,state_raw,"Massachusetts, Oregon"
+3997,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 21 - 30 years
+4022,us_multiple_states,warn,state_raw,"Alabama, Montana"
+4064,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 2 - 4 years
+4074,us_multiple_states,warn,state_raw,"Alabama, District of Columbia"
+4081,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 2 - 4 years
+4083,salary_likely_in_thousands_or_hourly,reject,salary_raw,35
+4084,experience_exceeds_age,warn,exp_overall,21 - 30 years at age 25-34
+4126,salary_likely_in_thousands_or_hourly,reject,salary_raw,108
+4190,usd_outside_us,warn,currency,USD in Canada
+4194,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 2 - 4 years
+4266,currency_unresolved,reject,currency_other,TTD
+4277,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+4323,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 5-7 years
+4362,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 5-7 years
+4412,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+4433,us_state_missing,warn,state_raw,
+4450,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 21 - 30 years
+4501,currency_unresolved,reject,currency_other,Indian rupees
+4508,field_exp_exceeds_overall,warn,exp_field,41 years or more > 11 - 20 years
+4529,usd_outside_us,warn,currency,USD in Sweden
+4548,salary_likely_in_thousands_or_hourly,reject,salary_raw,63
+4566,us_state_missing,warn,state_raw,
+4569,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 1 year or less
+4692,us_state_missing,warn,state_raw,
+4729,country_unresolved,warn,country_raw,Can
+4741,state_given_outside_us,warn,state_raw,California
+4741,usd_outside_us,warn,currency,USD in Canada
+4744,us_multiple_states,warn,state_raw,"California, Pennsylvania"
+4782,currency_unresolved,reject,currency_other,BRL (R$)
+4839,us_state_missing,warn,state_raw,
+4879,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+4935,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+4973,currency_unresolved,reject,currency_other,Mexican pesos
+5019,country_unresolved,warn,country_raw,U.A.
+5051,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 2 - 4 years
+5075,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+5076,us_state_missing,warn,state_raw,
+5141,salary_likely_in_thousands_or_hourly,reject,salary_raw,118
+5169,us_multiple_states,warn,state_raw,"New Jersey, Pennsylvania"
+5192,us_multiple_states,warn,state_raw,"Georgia, Washington"
+5213,salary_likely_in_thousands_or_hourly,reject,salary_raw,40
+5221,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+5230,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+5231,currency_country_conflict,warn,currency,EUR in United Kingdom
+5290,us_state_missing,warn,state_raw,
+5327,currency_country_conflict,warn,currency,EUR in Sweden
+5360,us_multiple_states,warn,state_raw,"Alaska, Maryland"
+5368,us_state_missing,warn,state_raw,
+5583,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+5585,pii_redacted,warn,income_context,URL
+5623,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+5820,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+5843,currency_country_conflict,warn,currency,CAD in United States
+5881,salary_likely_in_thousands_or_hourly,reject,salary_raw,18
+5993,usd_outside_us,warn,currency,USD in United Kingdom
+6007,us_multiple_states,warn,state_raw,"Michigan, South Carolina"
+6020,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+6098,currency_country_conflict,warn,currency,EUR in Sweden
+6126,salary_likely_in_thousands_or_hourly,reject,salary_raw,70
+6151,field_exp_exceeds_overall,warn,exp_field,21 - 30 years > 5-7 years
+6176,currency_country_conflict,warn,currency,EUR in United Kingdom
+6279,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+6296,salary_likely_in_thousands_or_hourly,reject,salary_raw,50
+6344,us_multiple_states,warn,state_raw,"Massachusetts, Rhode Island"
+6430,us_multiple_states,warn,state_raw,"District of Columbia, Virginia"
+6479,field_exp_exceeds_overall,warn,exp_field,5-7 years > 1 year or less
+6552,salary_likely_in_thousands_or_hourly,reject,salary_raw,155
+6559,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+6745,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+6767,currency_unresolved,reject,currency_other,Bdt
+6771,us_state_missing,warn,state_raw,
+6798,us_multiple_states,warn,state_raw,"Georgia, Minnesota"
+6817,us_state_missing,warn,state_raw,
+6879,us_state_missing,warn,state_raw,
+6905,field_exp_exceeds_overall,warn,exp_field,21 - 30 years > 11 - 20 years
+6914,us_state_missing,warn,state_raw,
+6931,salary_likely_in_thousands_or_hourly,reject,salary_raw,52
+6974,us_multiple_states,warn,state_raw,"Colorado, Nevada"
+6985,salary_below_10k_usd,warn,salary_raw,"6,400"
+7065,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+7078,field_exp_exceeds_overall,warn,exp_field,41 years or more > 31 - 40 years
+7090,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 5-7 years
+7143,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+7209,us_multiple_states,warn,state_raw,"California, Oregon"
+7237,usd_outside_us,warn,currency,USD in Germany
+7280,currency_country_conflict,warn,currency,GBP in South Africa
+7363,country_unresolved,warn,country_raw,Currently finance
+7393,us_multiple_states,warn,state_raw,"District of Columbia, Virginia"
+7492,us_multiple_states,warn,state_raw,"Maine, Massachusetts, New Hampshire, North Carolina"
+7547,salary_likely_in_thousands_or_hourly,reject,salary_raw,264
+7570,us_state_missing,warn,state_raw,
+7686,us_multiple_states,warn,state_raw,"Alabama, Minnesota, Nevada"
+7689,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+7707,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+7741,currency_unresolved,reject,currency_other,PLN (Polish zloty)
+7791,country_unresolved,warn,country_raw,UXZ
+7955,currency_unresolved,reject,currency_other,czech crowns
+7980,us_multiple_states,warn,state_raw,"New Jersey, New York"
+8060,us_state_missing,warn,state_raw,
+8089,currency_unresolved,reject,currency_other,TRY
+8098,us_state_missing,warn,state_raw,
+8197,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+8209,us_state_missing,warn,state_raw,
+8229,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 5-7 years
+8238,currency_country_conflict,warn,currency,EUR in United Kingdom
+8279,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+8288,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+8321,salary_below_10k_usd,warn,salary_raw,"8,000"
+8330,usd_outside_us,warn,currency,USD in Ireland
+8332,us_multiple_states,warn,state_raw,"Arizona, Utah"
+8340,state_given_outside_us,warn,state_raw,Florida
+8373,country_unresolved,warn,country_raw,Catalonia
+8383,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+8385,country_unresolved,warn,country_raw,"$2,175.84/year is deducted for benefits"
+8408,us_multiple_states,warn,state_raw,"Alabama, Kansas"
+8414,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 5-7 years
+8439,currency_unresolved,reject,currency_other,Norwegian kroner (NOK)
+8512,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+8594,salary_likely_in_thousands_or_hourly,reject,salary_raw,100
+8652,currency_unresolved,reject,currency_other,ILS/NIS
+8681,salary_likely_in_thousands_or_hourly,reject,salary_raw,91
+8699,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+8741,salary_zero_or_negative,reject,salary_raw,0
+8771,us_state_missing,warn,state_raw,
+8804,us_state_missing,warn,state_raw,
+8818,salary_likely_in_thousands_or_hourly,reject,salary_raw,80
+8839,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+8888,experience_exceeds_age,warn,exp_overall,31 - 40 years at age 35-44
+8910,us_state_missing,warn,state_raw,
+8918,currency_country_conflict,warn,currency,CAD in United States
+9001,salary_likely_in_thousands_or_hourly,reject,salary_raw,1
+9061,country_unresolved,warn,country_raw,USS
+9078,us_multiple_states,warn,state_raw,"California, Oklahoma"
+9142,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+9207,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+9214,us_state_missing,warn,state_raw,
+9286,salary_likely_in_thousands_or_hourly,reject,salary_raw,55
+9341,usd_outside_us,warn,currency,USD in United Kingdom
+9346,currency_unresolved,reject,currency_other,Other
+9352,us_state_missing,warn,state_raw,
+9427,state_given_outside_us,warn,state_raw,West Virginia
+9453,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 21 - 30 years
+9459,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 5-7 years
+9482,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+9491,us_multiple_states,warn,state_raw,"Illinois, Wisconsin"
+9556,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+9588,us_multiple_states,warn,state_raw,"Illinois, Kentucky"
+9596,us_state_missing,warn,state_raw,
+9668,us_multiple_states,warn,state_raw,"Arizona, California, Nevada, Texas"
+9689,us_multiple_states,warn,state_raw,"District of Columbia, Maryland"
+9703,country_unresolved,warn,country_raw,Hartford
+9713,us_multiple_states,warn,state_raw,"Alaska, Idaho, Oregon, Utah, Washington"
+9732,usd_outside_us,warn,currency,USD in Japan
+9742,us_state_missing,warn,state_raw,
+9813,us_multiple_states,warn,state_raw,"Massachusetts, Pennsylvania"
+9820,salary_likely_in_thousands_or_hourly,reject,salary_raw,105
+9849,currency_unresolved,reject,currency_other,NIS (new Israeli shekel)
+9850,usd_outside_us,warn,currency,USD in Canada
+9925,us_multiple_states,warn,state_raw,"District of Columbia, Maryland"
+9957,currency_unresolved,reject,currency_other,RMB (chinese yuan)
+9974,us_state_missing,warn,state_raw,
+10018,us_state_missing,warn,state_raw,
+10055,country_unresolved,warn,country_raw,I.S.
+10080,field_exp_exceeds_overall,warn,exp_field,21 - 30 years > 11 - 20 years
+10089,salary_likely_in_thousands_or_hourly,reject,salary_raw,65
+10123,us_state_missing,warn,state_raw,
+10172,salary_likely_in_thousands_or_hourly,reject,salary_raw,80
+10197,usd_outside_us,warn,currency,USD in Japan
+10326,salary_likely_in_thousands_or_hourly,reject,salary_raw,60
+10364,salary_zero_or_negative,reject,salary_raw,0
+10368,usd_outside_us,warn,currency,USD in Hong Kong
+10376,currency_unresolved,reject,currency_other,Taiwanese dollars
+10402,usd_outside_us,warn,currency,USD in Japan
+10594,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+10644,field_exp_exceeds_overall,warn,exp_field,21 - 30 years > 11 - 20 years
+10684,usd_outside_us,warn,currency,USD in Canada
+10697,us_multiple_states,warn,state_raw,"Nevada, Oregon"
+10764,experience_exceeds_age,warn,exp_overall,31 - 40 years at age under 18
+10778,us_state_missing,warn,state_raw,
+10780,salary_likely_in_thousands_or_hourly,reject,salary_raw,57
+10813,us_state_missing,warn,state_raw,
+10833,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 21 - 30 years
+10842,field_exp_exceeds_overall,warn,exp_field,41 years or more > 11 - 20 years
+10846,us_state_missing,warn,state_raw,
+10876,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 2 - 4 years
+10896,us_multiple_states,warn,state_raw,"New Jersey, Virginia"
+10906,currency_unresolved,reject,currency_other,Philippine Peso
+10914,us_multiple_states,warn,state_raw,"Montana, Wyoming"
+11065,usd_outside_us,warn,currency,USD in Australia
+11066,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+11069,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 8 - 10 years
+11071,country_unresolved,warn,country_raw,Remote
+11102,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+11120,salary_likely_in_thousands_or_hourly,reject,salary_raw,90
+11169,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 21 - 30 years
+11212,experience_exceeds_age,warn,exp_overall,21 - 30 years at age 18-24
+11236,currency_unresolved,reject,currency_other,KRW (Korean Won)
+11260,state_given_outside_us,warn,state_raw,Alaska
+11272,salary_below_10k_usd,warn,salary_raw,"6,600"
+11306,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+11315,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+11315,us_state_missing,warn,state_raw,
+11326,us_multiple_states,warn,state_raw,"Colorado, Massachusetts"
+11425,pii_redacted,warn,job_context,URL
+11445,field_exp_exceeds_overall,warn,exp_field,41 years or more > 31 - 40 years
+11448,usd_outside_us,warn,currency,USD in United Kingdom
+11466,salary_likely_in_thousands_or_hourly,reject,salary_raw,55
+11547,country_unresolved,warn,country_raw,IS
+11571,experience_exceeds_age,warn,exp_overall,11 - 20 years at age 18-24
+11593,salary_below_10k_usd,warn,salary_raw,"8,000"
+11675,pii_redacted,warn,job_context,URL
+11704,salary_likely_in_thousands_or_hourly,reject,salary_raw,40
+11706,salary_below_10k_usd,warn,salary_raw,"9,600"
+11721,currency_unresolved,reject,currency_other,ILS (Shekel)
+11762,currency_unresolved,reject,currency_other,China RMB
+11798,usd_outside_us,warn,currency,USD in Australia
+11815,state_given_outside_us,warn,state_raw,New York
+11826,currency_unresolved,reject,currency_other,AUD Australian
+11846,salary_likely_in_thousands_or_hourly,reject,salary_raw,65
+11892,us_multiple_states,warn,state_raw,"District of Columbia, Maryland, Virginia"
+11902,salary_likely_in_thousands_or_hourly,reject,salary_raw,55
+11915,currency_unresolved,reject,currency_other,LKR
+11916,salary_likely_in_thousands_or_hourly,reject,salary_raw,30
+11954,us_state_missing,warn,state_raw,
+11960,us_multiple_states,warn,state_raw,"Massachusetts, Vermont"
+11996,us_state_missing,warn,state_raw,
+12001,salary_likely_in_thousands_or_hourly,reject,salary_raw,53
+12019,salary_below_10k_usd,warn,salary_raw,"2,200"
+12032,usd_outside_us,warn,currency,USD in Canada
+12035,currency_country_conflict,warn,currency,GBP in Portugal
+12085,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+12183,usd_outside_us,warn,currency,USD in Australia
+12216,us_state_missing,warn,state_raw,
+12221,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+12227,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+12239,usd_outside_us,warn,currency,USD in Canada
+12250,currency_unresolved,reject,currency_other,Polish Złoty
+12312,us_state_missing,warn,state_raw,
+12367,us_state_missing,warn,state_raw,
+12423,salary_below_10k_usd,warn,salary_raw,"5,700"
+12506,country_unresolved,warn,country_raw,bonus based on meeting yearly goals set w/ my supervisor
+12595,usd_outside_us,warn,currency,USD in Germany
+12617,salary_zero_or_negative,reject,salary_raw,0
+12626,usd_outside_us,warn,currency,USD in Italy
+12652,currency_unresolved,reject,currency_other,Philippine peso (PHP)
+12705,country_unresolved,warn,country_raw,International
+12745,us_state_missing,warn,state_raw,
+12844,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+12909,salary_below_10k_usd,warn,salary_raw,"2,400"
+12910,salary_likely_in_thousands_or_hourly,reject,salary_raw,36
+12927,country_unresolved,warn,country_raw,"I earn commission on sales. If I meet quota, I'm guaranteed another 16k min. Last year i earned an additional 27k. It's "
+12943,us_multiple_states,warn,state_raw,"Massachusetts, New Hampshire"
+13220,currency_unresolved,reject,currency_other,Australian Dollars
+13221,state_given_outside_us,warn,state_raw,California
+13297,salary_below_10k_usd,warn,salary_raw,"300,000"
+13316,salary_likely_in_thousands_or_hourly,reject,salary_raw,"27,500"
+13396,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+13420,us_state_missing,warn,state_raw,
+13452,us_state_missing,warn,state_raw,
+13475,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+13493,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+13539,salary_zero_or_negative,reject,salary_raw,0
+13546,field_exp_exceeds_overall,warn,exp_field,5-7 years > 1 year or less
+13568,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+13672,us_state_missing,warn,state_raw,
+13698,salary_likely_in_thousands_or_hourly,reject,salary_raw,57
+13701,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+13780,salary_likely_in_thousands_or_hourly,reject,salary_raw,54
+13804,us_multiple_states,warn,state_raw,"Arkansas, Iowa, Massachusetts, Ohio, Wyoming"
+13823,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 21 - 30 years
+13851,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+13971,us_multiple_states,warn,state_raw,"New York, Texas"
+13983,us_multiple_states,warn,state_raw,"New Jersey, Pennsylvania"
+14041,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+14047,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+14063,us_state_missing,warn,state_raw,
+14077,salary_below_10k_usd,warn,salary_raw,"3,200"
+14121,usd_outside_us,warn,currency,USD in United Kingdom
+14125,salary_likely_in_thousands_or_hourly,reject,salary_raw,105
+14150,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+14184,salary_likely_in_thousands_or_hourly,reject,salary_raw,70
+14203,us_multiple_states,warn,state_raw,"California, Montana"
+14221,us_multiple_states,warn,state_raw,"Iowa, Utah, Vermont"
+14282,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+14300,salary_likely_in_thousands_or_hourly,reject,salary_raw,37
+14312,salary_likely_in_thousands_or_hourly,reject,salary_raw,37
+14316,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+14333,us_multiple_states,warn,state_raw,"California, Oregon"
+14381,usd_outside_us,warn,currency,USD in Italy
+14383,us_state_missing,warn,state_raw,
+14456,us_multiple_states,warn,state_raw,"Texas, Virginia"
+14488,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+14535,us_state_missing,warn,state_raw,
+14544,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+14556,us_state_missing,warn,state_raw,
+14570,us_multiple_states,warn,state_raw,"Utah, Vermont"
+14595,us_state_missing,warn,state_raw,
+14625,us_multiple_states,warn,state_raw,"Arkansas, Illinois"
+14821,usd_outside_us,warn,currency,USD in Canada
+14830,us_state_missing,warn,state_raw,
+14854,us_state_missing,warn,state_raw,
+14863,us_state_missing,warn,state_raw,
+14874,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+14875,salary_likely_in_thousands_or_hourly,reject,salary_raw,65
+14917,currency_unresolved,reject,currency_other,Equity
+14933,us_multiple_states,warn,state_raw,"New Jersey, New York"
+14977,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 1 year or less
+14990,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+15003,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 5-7 years
+15005,field_exp_exceeds_overall,warn,exp_field,5-7 years > 1 year or less
+15017,country_unresolved,warn,country_raw,Remote
+15023,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+15030,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+15097,usd_outside_us,warn,currency,USD in Sweden
+15114,us_state_missing,warn,state_raw,
+15125,field_exp_exceeds_overall,warn,exp_field,5-7 years > 1 year or less
+15130,us_multiple_states,warn,state_raw,"Georgia, Massachusetts"
+15162,salary_likely_in_thousands_or_hourly,reject,salary_raw,102
+15172,us_multiple_states,warn,state_raw,"Maryland, Virginia"
+15240,salary_zero_or_negative,reject,salary_raw,0
+15290,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 2 - 4 years
+15290,us_state_missing,warn,state_raw,
+15336,salary_zero_or_negative,reject,salary_raw,0
+15349,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+15462,us_state_missing,warn,state_raw,
+15532,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+15561,salary_below_10k_usd,warn,salary_raw,"5,427"
+15570,salary_likely_in_thousands_or_hourly,reject,salary_raw,52
+15603,currency_country_conflict,warn,currency,EUR in South Africa
+15647,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+15732,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+15734,salary_below_10k_usd,warn,salary_raw,"7,390"
+15737,salary_likely_in_thousands_or_hourly,reject,salary_raw,28
+15781,us_state_missing,warn,state_raw,
+15783,salary_below_10k_usd,warn,salary_raw,"6,600"
+15797,currency_country_conflict,warn,currency,JPY in United States
+15802,usd_outside_us,warn,currency,USD in Switzerland
+15802,salary_likely_in_thousands_or_hourly,reject,salary_raw,55
+15807,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+15812,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+15816,usd_outside_us,warn,currency,USD in Spain
+15847,us_state_missing,warn,state_raw,
+15853,salary_below_10k_usd,warn,salary_raw,"4,000"
+15887,salary_likely_in_thousands_or_hourly,reject,salary_raw,240
+15905,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 5-7 years
+15932,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+16027,currency_country_conflict,warn,currency,GBP in Germany
+16078,us_multiple_states,warn,state_raw,"District of Columbia, Maryland"
+16131,experience_exceeds_age,warn,exp_overall,31 - 40 years at age 35-44
+16182,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+16188,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+16212,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+16212,us_state_missing,warn,state_raw,
+16212,currency_country_conflict,warn,currency,ARS in United States
+16212,salary_below_10k_usd,warn,salary_raw,"240,000"
+16233,us_state_missing,warn,state_raw,
+16308,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+16344,usd_outside_us,warn,currency,USD in Canada
+16397,currency_unresolved,reject,currency_other,Argentinian peso (ARS)
+16549,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 2 - 4 years
+16601,experience_exceeds_age,warn,exp_overall,21 - 30 years at age 25-34
+16602,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+16629,currency_unresolved,reject,currency_other,Israeli Shekels
+16669,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 2 - 4 years
+16690,salary_likely_in_thousands_or_hourly,reject,salary_raw,80
+16718,salary_likely_in_thousands_or_hourly,reject,salary_raw,350
+16807,field_exp_exceeds_overall,warn,exp_field,5-7 years > 1 year or less
+16810,us_multiple_states,warn,state_raw,"Florida, Georgia, South Carolina"
+16855,country_unresolved,warn,country_raw,I was brought in on this salary to help with the EHR and very quickly was promoted to current position but compensation 
+16863,us_multiple_states,warn,state_raw,"Arkansas, Idaho, Kansas, Louisiana, Michigan, Mississippi, Nevada, New York, South Carolina, Tennessee, Washington"
+16875,us_multiple_states,warn,state_raw,"Arkansas, Idaho, Kansas, Louisiana, Michigan, Mississippi, Nevada, New York, South Carolina, Tennessee, Washington"
+16912,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+16922,us_state_missing,warn,state_raw,
+16945,field_exp_exceeds_overall,warn,exp_field,21 - 30 years > 11 - 20 years
+16982,salary_below_10k_usd,warn,salary_raw,"1,442"
+17002,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 5-7 years
+17055,us_multiple_states,warn,state_raw,"California, Texas"
+17070,currency_country_conflict,warn,currency,GBP in Spain
+17102,salary_likely_in_thousands_or_hourly,reject,salary_raw,36
+17115,currency_unresolved,reject,currency_other,PhP (Philippine Peso)
+17177,us_state_missing,warn,state_raw,
+17252,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+17328,us_multiple_states,warn,state_raw,"Indiana, Ohio"
+17343,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+17378,us_multiple_states,warn,state_raw,"Ohio, Washington"
+17383,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+17428,currency_country_conflict,warn,currency,AUD in Canada
+17454,field_exp_exceeds_overall,warn,exp_field,41 years or more > 11 - 20 years
+17459,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+17537,field_exp_exceeds_overall,warn,exp_field,21 - 30 years > 11 - 20 years
+17549,salary_below_10k_usd,warn,salary_raw,"2,400"
+17551,usd_outside_us,warn,currency,USD in Australia
+17555,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 2 - 4 years
+17592,usd_outside_us,warn,currency,USD in United Kingdom
+17605,field_exp_exceeds_overall,warn,exp_field,41 years or more > 2 - 4 years
+17654,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+17692,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+17705,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 5-7 years
+17709,usd_outside_us,warn,currency,USD in Canada
+17757,country_unresolved,warn,country_raw,n/a (remote from wherever I want)
+17774,country_unresolved,warn,country_raw,ISA
+17827,us_multiple_states,warn,state_raw,"Kansas, Missouri"
+17839,salary_below_10k_usd,warn,salary_raw,"7,250"
+17902,field_exp_exceeds_overall,warn,exp_field,21 - 30 years > 11 - 20 years
+17910,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+17947,us_state_missing,warn,state_raw,
+17959,usd_outside_us,warn,currency,USD in New Zealand
+17978,usd_outside_us,warn,currency,USD in Japan
+18062,field_exp_exceeds_overall,warn,exp_field,21 - 30 years > 11 - 20 years
+18064,us_state_missing,warn,state_raw,
+18097,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+18142,salary_likely_in_thousands_or_hourly,reject,salary_raw,72
+18204,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+18207,salary_below_10k_usd,warn,salary_raw,"9,000"
+18224,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 2 - 4 years
+18229,salary_below_10k_usd,warn,salary_raw,"5,265"
+18323,experience_exceeds_age,warn,exp_overall,11 - 20 years at age 18-24
+18341,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 2 - 4 years
+18358,us_multiple_states,warn,state_raw,"Colorado, Illinois"
+18414,field_exp_exceeds_overall,warn,exp_field,21 - 30 years > 11 - 20 years
+18435,us_state_missing,warn,state_raw,
+18435,salary_likely_in_thousands_or_hourly,reject,salary_raw,130
+18459,us_multiple_states,warn,state_raw,"Maryland, Virginia"
+18466,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+18475,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+18570,usd_outside_us,warn,currency,USD in Australia
+18614,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 1 year or less
+18620,salary_likely_in_thousands_or_hourly,reject,salary_raw,100
+18641,usd_outside_us,warn,currency,USD in France
+18664,currency_unresolved,reject,currency_other,SAR
+18672,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 2 - 4 years
+18679,us_state_missing,warn,state_raw,
+18715,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+18723,usd_outside_us,warn,currency,USD in New Zealand
+18771,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+18825,salary_below_10k_usd,warn,salary_raw,"2,400"
+18845,currency_unresolved,reject,currency_other,Other
+18846,salary_likely_in_thousands_or_hourly,reject,salary_raw,60
+18848,usd_outside_us,warn,currency,USD in Netherlands
+18851,currency_country_conflict,warn,currency,EUR in Sweden
+18869,usd_outside_us,warn,currency,USD in Switzerland
+18877,usd_outside_us,warn,currency,USD in Netherlands
+18878,salary_likely_in_thousands_or_hourly,reject,salary_raw,51
+18884,currency_unresolved,reject,currency_other,Other
+18895,usd_outside_us,warn,currency,USD in Canada
+18906,currency_unresolved,reject,currency_other,Other
+18932,currency_unresolved,reject,currency_other,RM
+18941,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+18946,country_unresolved,warn,country_raw,Africa
+18992,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+19040,usd_outside_us,warn,currency,USD in Australia
+19196,us_state_missing,warn,state_raw,
+19252,currency_unresolved,reject,currency_other,Argentine Peso
+19297,salary_likely_in_thousands_or_hourly,reject,salary_raw,50
+19300,us_state_missing,warn,state_raw,
+19325,currency_unresolved,reject,currency_other,Philippine Pesos
+19337,salary_below_10k_usd,warn,salary_raw,"6,209"
+19402,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 2 - 4 years
+19402,salary_likely_in_thousands_or_hourly,reject,salary_raw,55
+19454,usd_outside_us,warn,currency,USD in United Kingdom
+19472,experience_exceeds_age,warn,exp_overall,21 - 30 years at age 25-34
+19489,us_state_missing,warn,state_raw,
+19522,salary_likely_in_thousands_or_hourly,reject,salary_raw,40
+19534,field_exp_exceeds_overall,warn,exp_field,21 - 30 years > 11 - 20 years
+19538,salary_below_10k_usd,warn,salary_raw,"1,000"
+19575,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+19576,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+19621,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 1 year or less
+19690,salary_likely_in_thousands_or_hourly,reject,salary_raw,145
+19698,country_unresolved,warn,country_raw,San Francisco
+19704,usd_outside_us,warn,currency,USD in Spain
+19840,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 21 - 30 years
+19945,field_exp_exceeds_overall,warn,exp_field,21 - 30 years > 5-7 years
+19953,usd_outside_us,warn,currency,USD in United Kingdom
+20040,usd_outside_us,warn,currency,USD in Canada
+20068,usd_outside_us,warn,currency,USD in United Kingdom
+20095,us_multiple_states,warn,state_raw,"Arizona, Hawaii, Illinois, Michigan, Utah, Wyoming"
+20096,salary_likely_in_thousands_or_hourly,reject,salary_raw,80
+20105,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+20115,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+20116,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 2 - 4 years
+20190,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 21 - 30 years
+20210,salary_zero_or_negative,reject,salary_raw,0
+20222,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+20265,us_multiple_states,warn,state_raw,"California, New Jersey"
+20290,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 5-7 years
+20383,country_unresolved,warn,country_raw,UA
+20472,salary_zero_or_negative,reject,salary_raw,0
+20494,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+20500,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 8 - 10 years
+20504,usd_outside_us,warn,currency,USD in Canada
+20555,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+20583,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 21 - 30 years
+20646,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+20660,us_multiple_states,warn,state_raw,"Louisiana, Washington"
+20672,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+20699,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+20790,usd_outside_us,warn,currency,USD in United Kingdom
+20813,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+20830,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+20848,salary_below_10k_usd,warn,salary_raw,36000
+20853,salary_below_10k_usd,warn,salary_raw,5100
+20901,us_multiple_states,warn,state_raw,"Maryland, New York"
+20906,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+20908,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+20997,us_multiple_states,warn,state_raw,"District of Columbia, Virginia"
+21025,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+21051,salary_likely_in_thousands_or_hourly,reject,salary_raw,70
+21172,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+21194,currency_country_conflict,warn,currency,GBP in United States
+21220,us_state_missing,warn,state_raw,
+21224,salary_likely_in_thousands_or_hourly,reject,salary_raw,40
+21232,salary_likely_in_thousands_or_hourly,reject,salary_raw,55
+21242,salary_below_10k_usd,warn,salary_raw,40000
+21247,salary_below_10k_usd,warn,salary_raw,1750
+21251,country_unresolved,warn,country_raw,I.S.
+21260,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 2 - 4 years
+21289,salary_likely_in_thousands_or_hourly,reject,salary_raw,110
+21293,usd_outside_us,warn,currency,USD in Australia
+21313,us_multiple_states,warn,state_raw,"New Jersey, New York"
+21324,currency_unresolved,reject,currency_other,INR (Indian Rupee)
+21345,usd_outside_us,warn,currency,USD in Netherlands
+21348,salary_likely_in_thousands_or_hourly,reject,salary_raw,150
+21355,usd_outside_us,warn,currency,USD in Japan
+21361,salary_likely_in_thousands_or_hourly,reject,salary_raw,51
+21372,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+21411,experience_exceeds_age,warn,exp_overall,31 - 40 years at age 25-34
+21438,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 2 - 4 years
+21478,us_state_missing,warn,state_raw,
+21533,salary_below_10k_usd,warn,salary_raw,4100
+21547,currency_unresolved,reject,currency_other,Danish Kroner
+21555,usd_outside_us,warn,currency,USD in Canada
+21558,us_multiple_states,warn,state_raw,"District of Columbia, Virginia"
+21621,us_state_missing,warn,state_raw,
+21686,us_state_missing,warn,state_raw,
+21721,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+21762,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+21765,usd_outside_us,warn,currency,USD in Canada
+21776,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+21783,us_multiple_states,warn,state_raw,"District of Columbia, Washington"
+21791,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+21815,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+21866,us_state_missing,warn,state_raw,
+21872,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+21914,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+21951,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+21962,field_exp_exceeds_overall,warn,exp_field,5-7 years > 1 year or less
+21983,us_state_missing,warn,state_raw,
+22036,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 11 - 20 years
+22051,experience_exceeds_age,warn,exp_overall,21 - 30 years at age 25-34
+22112,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+22147,us_multiple_states,warn,state_raw,"Delaware, Pennsylvania"
+22314,us_state_missing,warn,state_raw,
+22367,us_state_missing,warn,state_raw,
+22380,salary_likely_in_thousands_or_hourly,reject,salary_raw,78
+22597,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 21 - 30 years
+22603,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 5-7 years
+22661,country_unresolved,warn,country_raw,Y
+22672,us_state_missing,warn,state_raw,
+22679,us_multiple_states,warn,state_raw,"Illinois, North Carolina"
+22758,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 1 year or less
+22758,salary_below_10k_usd,warn,salary_raw,6000
+22824,country_unresolved,warn,country_raw,United y
+22860,usd_outside_us,warn,currency,USD in United Kingdom
+22873,currency_unresolved,reject,currency_other,Korean Won
+22876,field_exp_exceeds_overall,warn,exp_field,21 - 30 years > 11 - 20 years
+22903,us_multiple_states,warn,state_raw,"Indiana, Massachusetts"
+23002,country_unresolved,warn,country_raw,europe
+23002,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+23030,salary_zero_or_negative,reject,salary_raw,0
+23061,us_multiple_states,warn,state_raw,"Florida, New Hampshire, Wisconsin"
+23114,usd_outside_us,warn,currency,USD in Canada
+23141,us_multiple_states,warn,state_raw,"New Jersey, New York"
+23202,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+23226,usd_outside_us,warn,currency,USD in Australia
+23264,us_multiple_states,warn,state_raw,"Pennsylvania, Rhode Island"
+23272,us_multiple_states,warn,state_raw,"California, Oregon"
+23343,usd_outside_us,warn,currency,USD in Canada
+23343,salary_likely_in_thousands_or_hourly,reject,salary_raw,160
+23382,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+23398,us_state_missing,warn,state_raw,
+23520,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+23532,us_state_missing,warn,state_raw,
+23560,usd_outside_us,warn,currency,USD in France
+23582,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 21 - 30 years
+23623,salary_likely_in_thousands_or_hourly,reject,salary_raw,55
+23641,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+23690,usd_outside_us,warn,currency,USD in Switzerland
+23744,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 21 - 30 years
+23875,salary_below_10k_usd,warn,salary_raw,5100
+23898,usd_outside_us,warn,currency,USD in Belgium
+23900,us_multiple_states,warn,state_raw,"New Jersey, New York"
+23974,field_exp_exceeds_overall,warn,exp_field,31 - 40 years > 2 - 4 years
+23985,salary_zero_or_negative,reject,salary_raw,0
+24016,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+24126,field_exp_exceeds_overall,warn,exp_field,21 - 30 years > 11 - 20 years
+24129,us_state_missing,warn,state_raw,
+24164,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+24166,salary_likely_in_thousands_or_hourly,reject,salary_raw,70
+24185,country_unresolved,warn,country_raw,USD
+24194,us_multiple_states,warn,state_raw,"Kansas, Missouri"
+24359,us_state_missing,warn,state_raw,
+24453,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 5-7 years
+24487,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+24513,us_multiple_states,warn,state_raw,"New York, Oregon, Vermont"
+24588,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+24700,us_state_missing,warn,state_raw,
+24800,us_multiple_states,warn,state_raw,"Iowa, Nebraska"
+24829,field_exp_exceeds_overall,warn,exp_field,5-7 years > 2 - 4 years
+24867,us_multiple_states,warn,state_raw,"California, New York"
+24869,currency_country_conflict,warn,currency,CAD in United States
+24914,field_exp_exceeds_overall,warn,exp_field,41 years or more > 21 - 30 years
+24941,experience_exceeds_age,warn,exp_overall,41 years or more at age 25-34
+24951,currency_unresolved,reject,currency_other,Mexican Pesos
+25006,state_given_outside_us,warn,state_raw,Alaska
+25078,us_state_missing,warn,state_raw,
+25117,experience_exceeds_age,warn,exp_overall,31 - 40 years at age 35-44
+25122,us_state_missing,warn,state_raw,
+25185,experience_exceeds_age,warn,exp_overall,41 years or more at age under 18
+25209,us_state_missing,warn,state_raw,
+25230,us_multiple_states,warn,state_raw,"Arizona, New York"
+25235,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+25253,us_multiple_states,warn,state_raw,"California, District of Columbia, Illinois, Iowa, Maryland, Minnesota"
+25263,salary_likely_in_thousands_or_hourly,reject,salary_raw,50
+25325,us_state_missing,warn,state_raw,
+25425,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 1 year or less
+25491,experience_exceeds_age,warn,exp_overall,31 - 40 years at age 25-34
+25512,currency_country_conflict,warn,currency,AUD in United States
+25530,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 2 - 4 years
+25550,currency_unresolved,reject,currency_other,THAI  BAHT
+25599,usd_outside_us,warn,currency,USD in Switzerland
+25601,us_state_missing,warn,state_raw,
+25611,usd_outside_us,warn,currency,USD in Japan
+25679,us_multiple_states,warn,state_raw,"New Jersey, Pennsylvania"
+25736,experience_exceeds_age,warn,exp_overall,21 - 30 years at age under 18
+25740,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 5-7 years
+25751,field_exp_exceeds_overall,warn,exp_field,8 - 10 years > 5-7 years
+25771,usd_outside_us,warn,currency,USD in Australia
+25773,usd_outside_us,warn,currency,USD in Australia
+25836,currency_country_conflict,warn,currency,EUR in United States
+25838,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 2 - 4 years
+25880,us_multiple_states,warn,state_raw,"Arizona, California"
+25933,us_multiple_states,warn,state_raw,"New Jersey, Pennsylvania"
+25940,us_multiple_states,warn,state_raw,"Oregon, Washington"
+25953,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 5-7 years
+25954,state_given_outside_us,warn,state_raw,Vermont
+25975,us_multiple_states,warn,state_raw,"Maryland, Virginia"
+26032,field_exp_exceeds_overall,warn,exp_field,11 - 20 years > 8 - 10 years
+26034,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+26074,salary_likely_in_thousands_or_hourly,reject,salary_raw,40
+26091,us_multiple_states,warn,state_raw,"Massachusetts, New Hampshire"
+26093,usd_outside_us,warn,currency,USD in South Africa
+26121,us_state_missing,warn,state_raw,
+26123,field_exp_exceeds_overall,warn,exp_field,2 - 4 years > 1 year or less
+26139,salary_likely_in_thousands_or_hourly,reject,salary_raw,100
+26169,salary_likely_in_thousands_or_hourly,reject,salary_raw,185
+26189,salary_likely_in_thousands_or_hourly,reject,salary_raw,90
+26210,salary_likely_in_thousands_or_hourly,reject,salary_raw,36
+26225,salary_likely_in_thousands_or_hourly,reject,salary_raw,65
+381,duplicate_submission,reject,row,same answers as row 252
+1771,duplicate_submission,reject,row,same answers as row 417
+2588,duplicate_submission,reject,row,same answers as row 2473
+3051,duplicate_submission,reject,row,same answers as row 1412
+3877,duplicate_submission,reject,row,same answers as row 3810
+4938,duplicate_submission,reject,row,same answers as row 1295
+5089,duplicate_submission,reject,row,same answers as row 5053
+6234,duplicate_submission,reject,row,same answers as row 5460
+7016,duplicate_submission,reject,row,same answers as row 6814
+7135,duplicate_submission,reject,row,same answers as row 3277
+7499,duplicate_submission,reject,row,same answers as row 7458
+7690,duplicate_submission,reject,row,same answers as row 1263
+8223,duplicate_submission,reject,row,same answers as row 7907
+8235,duplicate_submission,reject,row,same answers as row 7907
+8316,duplicate_submission,reject,row,same answers as row 8314
+8342,duplicate_submission,reject,row,same answers as row 2017
+8471,duplicate_submission,reject,row,same answers as row 8442
+8845,duplicate_submission,reject,row,same answers as row 8670
+9247,duplicate_submission,reject,row,same answers as row 8887
+9450,duplicate_submission,reject,row,same answers as row 5995
+9493,duplicate_submission,reject,row,same answers as row 9392
+9538,duplicate_submission,reject,row,same answers as row 9523
+9607,duplicate_submission,reject,row,same answers as row 9598
+9675,duplicate_submission,reject,row,same answers as row 9655
+10211,duplicate_submission,reject,row,same answers as row 8407
+10234,duplicate_submission,reject,row,same answers as row 9978
+10477,duplicate_submission,reject,row,same answers as row 10475
+10531,duplicate_submission,reject,row,same answers as row 1903
+10676,duplicate_submission,reject,row,same answers as row 10532
+10677,duplicate_submission,reject,row,same answers as row 3431
+10855,duplicate_submission,reject,row,same answers as row 10835
+10909,duplicate_submission,reject,row,same answers as row 10810
+11115,duplicate_submission,reject,row,same answers as row 11113
+11130,duplicate_submission,reject,row,same answers as row 10713
+11222,duplicate_submission,reject,row,same answers as row 11207
+11269,duplicate_submission,reject,row,same answers as row 11225
+11308,duplicate_submission,reject,row,same answers as row 11279
+11360,duplicate_submission,reject,row,same answers as row 11354
+11443,duplicate_submission,reject,row,same answers as row 11439
+11559,duplicate_submission,reject,row,same answers as row 11556
+11957,duplicate_submission,reject,row,same answers as row 11941
+11999,duplicate_submission,reject,row,same answers as row 11980
+12093,duplicate_submission,reject,row,same answers as row 12076
+12118,duplicate_submission,reject,row,same answers as row 11091
+12238,duplicate_submission,reject,row,same answers as row 12128
+12367,duplicate_submission,reject,row,same answers as row 12312
+12376,duplicate_submission,reject,row,same answers as row 2392
+13158,duplicate_submission,reject,row,same answers as row 13128
+13192,duplicate_submission,reject,row,same answers as row 13185
+13407,duplicate_submission,reject,row,same answers as row 13393
+13667,duplicate_submission,reject,row,same answers as row 7640
+13957,duplicate_submission,reject,row,same answers as row 13941
+14033,duplicate_submission,reject,row,same answers as row 13967
+14312,duplicate_submission,reject,row,same answers as row 14300
+14380,duplicate_submission,reject,row,same answers as row 14305
+14412,duplicate_submission,reject,row,same answers as row 14395
+14499,duplicate_submission,reject,row,same answers as row 14477
+14513,duplicate_submission,reject,row,same answers as row 14505
+14756,duplicate_submission,reject,row,same answers as row 14749
+14841,duplicate_submission,reject,row,same answers as row 14543
+14846,duplicate_submission,reject,row,same answers as row 14839
+14870,duplicate_submission,reject,row,same answers as row 14857
+14967,duplicate_submission,reject,row,same answers as row 14931
+15174,duplicate_submission,reject,row,same answers as row 14957
+15236,duplicate_submission,reject,row,same answers as row 15230
+15470,duplicate_submission,reject,row,same answers as row 15230
+15565,duplicate_submission,reject,row,same answers as row 15542
+15637,duplicate_submission,reject,row,same answers as row 15477
+15679,duplicate_submission,reject,row,same answers as row 15652
+15764,duplicate_submission,reject,row,same answers as row 15688
+16011,duplicate_submission,reject,row,same answers as row 15991
+16148,duplicate_submission,reject,row,same answers as row 16143
+16477,duplicate_submission,reject,row,same answers as row 15183
+16486,duplicate_submission,reject,row,same answers as row 16480
+16493,duplicate_submission,reject,row,same answers as row 15689
+16540,duplicate_submission,reject,row,same answers as row 16532
+16542,duplicate_submission,reject,row,same answers as row 16525
+16597,duplicate_submission,reject,row,same answers as row 16333
+16613,duplicate_submission,reject,row,same answers as row 16273
+16616,duplicate_submission,reject,row,same answers as row 16605
+16635,duplicate_submission,reject,row,same answers as row 16495
+16636,duplicate_submission,reject,row,same answers as row 16611
+16685,duplicate_submission,reject,row,same answers as row 16333
+16698,duplicate_submission,reject,row,same answers as row 16693
+16699,duplicate_submission,reject,row,same answers as row 2392
+16768,duplicate_submission,reject,row,same answers as row 15537
+16772,duplicate_submission,reject,row,same answers as row 14683
+16837,duplicate_submission,reject,row,same answers as row 16822
+16875,duplicate_submission,reject,row,same answers as row 16863
+16879,duplicate_submission,reject,row,same answers as row 14297
+17040,duplicate_submission,reject,row,same answers as row 17035
+17068,duplicate_submission,reject,row,same answers as row 17061
+17090,duplicate_submission,reject,row,same answers as row 17083
+17101,duplicate_submission,reject,row,same answers as row 16333
+17137,duplicate_submission,reject,row,same answers as row 17132
+17149,duplicate_submission,reject,row,same answers as row 15915
+17195,duplicate_submission,reject,row,same answers as row 17145
+17215,duplicate_submission,reject,row,same answers as row 16331
+17309,duplicate_submission,reject,row,same answers as row 17301
+17317,duplicate_submission,reject,row,same answers as row 16333
+17639,duplicate_submission,reject,row,same answers as row 17618
+17820,duplicate_submission,reject,row,same answers as row 17486
+17925,duplicate_submission,reject,row,same answers as row 17920
+17961,duplicate_submission,reject,row,same answers as row 17918
+17971,duplicate_submission,reject,row,same answers as row 17955
+18077,duplicate_submission,reject,row,same answers as row 18072
+18228,duplicate_submission,reject,row,same answers as row 17877
+18324,duplicate_submission,reject,row,same answers as row 18281
+18445,duplicate_submission,reject,row,same answers as row 18439
+18474,duplicate_submission,reject,row,same answers as row 18470
+18558,duplicate_submission,reject,row,same answers as row 18551
+18650,duplicate_submission,reject,row,same answers as row 11611
+18841,duplicate_submission,reject,row,same answers as row 18451
+18935,duplicate_submission,reject,row,same answers as row 18912
+18938,duplicate_submission,reject,row,same answers as row 18912
+19009,duplicate_submission,reject,row,same answers as row 18957
+19087,duplicate_submission,reject,row,same answers as row 19078
+19116,duplicate_submission,reject,row,same answers as row 19103
+19176,duplicate_submission,reject,row,same answers as row 19163
+19245,duplicate_submission,reject,row,same answers as row 19237
+19254,duplicate_submission,reject,row,same answers as row 19237
+19289,duplicate_submission,reject,row,same answers as row 19281
+19427,duplicate_submission,reject,row,same answers as row 19409
+19443,duplicate_submission,reject,row,same answers as row 19428
+19511,duplicate_submission,reject,row,same answers as row 19510
+19527,duplicate_submission,reject,row,same answers as row 19524
+19562,duplicate_submission,reject,row,same answers as row 19555
+19631,duplicate_submission,reject,row,same answers as row 19275
+20067,duplicate_submission,reject,row,same answers as row 20064
+20177,duplicate_submission,reject,row,same answers as row 18166
+20286,duplicate_submission,reject,row,same answers as row 20283
+20362,duplicate_submission,reject,row,same answers as row 20031
+20381,duplicate_submission,reject,row,same answers as row 20376
+20412,duplicate_submission,reject,row,same answers as row 20408
+20416,duplicate_submission,reject,row,same answers as row 20376
+20421,duplicate_submission,reject,row,same answers as row 20376
+20493,duplicate_submission,reject,row,same answers as row 20376
+20530,duplicate_submission,reject,row,same answers as row 20376
+20531,duplicate_submission,reject,row,same answers as row 20376
+20567,duplicate_submission,reject,row,same answers as row 20376
+21202,duplicate_submission,reject,row,same answers as row 21198
+21696,duplicate_submission,reject,row,same answers as row 21694
+22617,duplicate_submission,reject,row,same answers as row 22613
+23589,duplicate_submission,reject,row,same answers as row 23579
+23863,duplicate_submission,reject,row,same answers as row 23862
+23931,duplicate_submission,reject,row,same answers as row 23921
+25343,duplicate_submission,reject,row,same answers as row 25342
+25584,duplicate_submission,reject,row,same answers as row 25583
+322,salary_robust_outlier,warn,salary_raw,"700,000 USD (z=4.3)"
+1907,salary_robust_outlier,warn,salary_raw,"832,000 USD (z=4.6)"
+2126,salary_robust_outlier,warn,salary_raw,"3,000,000 USD (z=7.1)"
+2557,salary_robust_outlier,warn,salary_raw,"625,000 USD (z=4.1)"
+3425,salary_robust_outlier,warn,salary_raw,"657,900 USD (z=4.2)"
+3889,salary_robust_outlier,warn,salary_raw,"4,000 USD (z=-5.9)"
+4208,salary_robust_outlier,warn,salary_raw,"1,100,000 USD (z=5.2)"
+5757,salary_robust_outlier,warn,salary_raw,"1,900,000 USD (z=6.2)"
+6778,salary_robust_outlier,warn,salary_raw,"750,000 USD (z=4.4)"
+6785,salary_robust_outlier,warn,salary_raw,"1,650,000 USD (z=6.0)"
+6970,salary_robust_outlier,warn,salary_raw,"734,400 USD (z=4.4)"
+6985,salary_robust_outlier,warn,salary_raw,"6,400 USD (z=-4.9)"
+8299,salary_robust_outlier,warn,salary_raw,"700,000 USD (z=4.3)"
+8321,salary_robust_outlier,warn,salary_raw,"8,000 USD (z=-4.5)"
+9240,salary_robust_outlier,warn,salary_raw,"1,334,782 USD (z=5.6)"
+9950,salary_robust_outlier,warn,salary_raw,"800,000 USD (z=4.5)"
+10829,salary_robust_outlier,warn,salary_raw,"10,000 USD (z=-4.1)"
+11136,salary_robust_outlier,warn,salary_raw,"1,200,000 USD (z=5.3)"
+11272,salary_robust_outlier,warn,salary_raw,"6,600 USD (z=-4.9)"
+11630,salary_robust_outlier,warn,salary_raw,"875,000 USD (z=4.7)"
+11706,salary_robust_outlier,warn,salary_raw,"9,600 USD (z=-4.1)"
+12423,salary_robust_outlier,warn,salary_raw,"5,700 USD (z=-5.2)"
+13859,salary_robust_outlier,warn,salary_raw,"614,000 USD (z=4.0)"
+14077,salary_robust_outlier,warn,salary_raw,"3,200 USD (z=-6.3)"
+14525,salary_robust_outlier,warn,salary_raw,"850,000 USD (z=4.7)"
+14649,salary_robust_outlier,warn,salary_raw,"835,000 USD (z=4.6)"
+15311,salary_robust_outlier,warn,salary_raw,"800,000 USD (z=4.5)"
+15511,salary_robust_outlier,warn,salary_raw,"2,111,538 USD (z=6.5)"
+15734,salary_robust_outlier,warn,salary_raw,"7,390 USD (z=-4.7)"
+15853,salary_robust_outlier,warn,salary_raw,"4,000 USD (z=-5.9)"
+16167,salary_robust_outlier,warn,salary_raw,"1,100,000 USD (z=5.2)"
+16982,salary_robust_outlier,warn,salary_raw,"1,442 USD (z=-7.9)"
+17211,salary_robust_outlier,warn,salary_raw,"950,000 USD (z=4.9)"
+17549,salary_robust_outlier,warn,salary_raw,"2,400 USD (z=-6.9)"
+17710,salary_robust_outlier,warn,salary_raw,"1,260,000 USD (z=5.4)"
+17839,salary_robust_outlier,warn,salary_raw,"7,250 USD (z=-4.7)"
+18207,salary_robust_outlier,warn,salary_raw,"9,000 USD (z=-4.3)"
+18229,salary_robust_outlier,warn,salary_raw,"5,265 USD (z=-5.3)"
+18458,salary_robust_outlier,warn,salary_raw,"630,000 USD (z=4.1)"
+18578,salary_robust_outlier,warn,salary_raw,"868,000 USD (z=4.7)"
+19337,salary_robust_outlier,warn,salary_raw,"6,209 USD (z=-5.0)"
+19538,salary_robust_outlier,warn,salary_raw,"1,000 USD (z=-8.6)"
+19726,salary_robust_outlier,warn,salary_raw,"800,000 USD (z=4.5)"
+20853,salary_robust_outlier,warn,salary_raw,5100 USD (z=-5.4)
+21427,salary_robust_outlier,warn,salary_raw,860000 USD (z=4.7)
+21533,salary_robust_outlier,warn,salary_raw,4100 USD (z=-5.8)
+21655,salary_robust_outlier,warn,salary_raw,920000 USD (z=4.8)
+22758,salary_robust_outlier,warn,salary_raw,6000 USD (z=-5.1)
+22825,salary_robust_outlier,warn,salary_raw,954000 USD (z=4.9)
+23875,salary_robust_outlier,warn,salary_raw,5100 USD (z=-5.4)
+24957,salary_robust_outlier,warn,salary_raw,1250000 USD (z=5.4)
+25615,salary_robust_outlier,warn,salary_raw,640000 USD (z=4.1)
+1032,salary_robust_outlier,warn,salary_raw,"4,400 GBP (z=-4.7)"
+5583,salary_robust_outlier,warn,salary_raw,"910,000 GBP (z=6.6)"
+12019,salary_robust_outlier,warn,salary_raw,"2,200 GBP (z=-6.1)"
+14074,salary_robust_outlier,warn,salary_raw,"689,000 GBP (z=6.0)"
+14209,salary_robust_outlier,warn,salary_raw,"950,000 GBP (z=6.7)"
+19472,salary_robust_outlier,warn,salary_raw,"500,000 GBP (z=5.3)"
+22053,salary_robust_outlier,warn,salary_raw,440000 GBP (z=5.1)
+3011,salary_robust_outlier,warn,salary_raw,"600,000 CAD (z=5.5)"
+9229,salary_robust_outlier,warn,salary_raw,"15,000 CAD (z=-4.3)"
+21685,salary_robust_outlier,warn,salary_raw,350000 CAD (z=4.1)
+23561,salary_robust_outlier,warn,salary_raw,960000 CAD (z=6.7)
+11659,salary_robust_outlier,warn,salary_raw,"550,000 EUR (z=4.6)"
+12909,salary_robust_outlier,warn,salary_raw,"2,400 EUR (z=-6.3)"
+13498,salary_robust_outlier,warn,salary_raw,"444,000 EUR (z=4.1)"
+15561,salary_robust_outlier,warn,salary_raw,"5,427 EUR (z=-4.7)"
+16152,salary_robust_outlier,warn,salary_raw,"850,000 EUR (z=5.4)"
+21247,salary_robust_outlier,warn,salary_raw,1750 EUR (z=-6.9)
+18825,salary_robust_outlier,warn,salary_raw,"2,400 AUD (z=-9.7)"
+21295,salary_robust_outlier,warn,salary_raw,1000000 CHF (z=6.7)
+3935,salary_robust_outlier,warn,salary_raw,"28,000 SEK (z=-8.7)"
+14431,salary_robust_outlier,warn,salary_raw,"2,300,000 SEK (z=4.8)"

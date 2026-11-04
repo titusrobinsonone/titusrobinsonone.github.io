@@ -1,0 +1,277 @@
+row_id,reasons,salary_raw,currency_raw,currency_other,country_raw
+99,salary_likely_in_thousands_or_hourly,58,USD,,USA
+168,salary_likely_in_thousands_or_hourly,35,EUR,,finland
+381,duplicate_submission,"94,000",USD,,United States
+897,salary_likely_in_thousands_or_hourly,38,USD,,USA
+970,salary_likely_in_thousands_or_hourly,61,USD,,United States
+1609,salary_likely_in_thousands_or_hourly,130,USD,,USA
+1771,duplicate_submission,"49,000",USD,,United States
+2231,salary_likely_in_thousands_or_hourly,33,EUR,,Germany
+2588,duplicate_submission,"41,600",USD,,Japan
+2641,currency_unresolved,"156,000",Other,BR$,Brazil
+3051,duplicate_submission,"50,000",USD,,US
+3607,salary_above_5m_usd,"102,000,000",USD,COP,Colombia
+3877,duplicate_submission,"52,000",USD,,USA
+4083,salary_likely_in_thousands_or_hourly,35,USD,,US
+4126,salary_likely_in_thousands_or_hourly,108,USD,,USA
+4266,currency_unresolved,"62,400",Other,TTD,Trinidad and Tobago
+4501,currency_unresolved,"2,800,000",Other,Indian rupees,India
+4548,salary_likely_in_thousands_or_hourly,63,EUR,,Germany
+4782,currency_unresolved,"30,238",Other,BRL (R$),Brazil
+4938,duplicate_submission,"135,000",USD,,USA
+4973,currency_unresolved,"534,300",Other,Mexican pesos,Mexico
+5089,duplicate_submission,"62,500",USD,,usa
+5141,salary_likely_in_thousands_or_hourly,118,CAD,,Canada
+5213,salary_likely_in_thousands_or_hourly,40,USD,,USA
+5881,salary_likely_in_thousands_or_hourly,18,EUR,,Netherlands
+6126,salary_likely_in_thousands_or_hourly,70,USD,,United States
+6234,duplicate_submission,"136,843",USD,,United States
+6296,salary_likely_in_thousands_or_hourly,50,GBP,,UK
+6552,salary_likely_in_thousands_or_hourly,155,USD,,usa
+6767,currency_unresolved,"845,000",Other,Bdt,Bangladesh
+6931,salary_likely_in_thousands_or_hourly,52,CAD,,Canada
+7016,duplicate_submission,"76,500",USD,,United States
+7135,duplicate_submission,"89,000",USD,,USA
+7499,duplicate_submission,"38,400",USD,,USA
+7547,salary_likely_in_thousands_or_hourly,264,Other,Php,Philippines
+7690,duplicate_submission,"100,000",CAD,,Canada
+7741,currency_unresolved,"145,000",Other,PLN (Polish zloty),Poland
+7955,currency_unresolved,"360,000",Other,czech crowns,czech republic
+8089,currency_unresolved,72,Other,TRY,Turkey
+8223,duplicate_submission,"55,000",USD,,US
+8235,duplicate_submission,"55,000",USD,,US
+8316,duplicate_submission,"112,500",USD,,United States
+8342,duplicate_submission,"80,000",USD,,US
+8439,currency_unresolved,"586,500",Other,Norwegian kroner (NOK),Norway
+8471,duplicate_submission,"76,000",USD,,USA
+8594,salary_likely_in_thousands_or_hourly,100,EUR,,Germany
+8652,currency_unresolved,"240,000",Other,ILS/NIS,Israel
+8681,salary_likely_in_thousands_or_hourly,91,CAD,,Canada
+8741,salary_zero_or_negative,0,USD,,US
+8818,salary_likely_in_thousands_or_hourly,80,EUR,,Germany
+8845,duplicate_submission,"78,000",USD,,US
+9001,salary_likely_in_thousands_or_hourly,1,USD,,USA
+9247,duplicate_submission,"180,000",USD,,United States
+9286,salary_likely_in_thousands_or_hourly,55,USD,"55,000",US
+9346,currency_unresolved,"76,000",Other,,United States
+9450,duplicate_submission,"148,000",USD,,USA
+9493,duplicate_submission,"78,404",CAD,,Canada
+9538,duplicate_submission,"60,000",USD,,Us
+9607,duplicate_submission,"121,000",USD,,US
+9675,duplicate_submission,"121,129",USD,,United States
+9820,salary_likely_in_thousands_or_hourly,105,USD,,US
+9849,currency_unresolved,"210,000",Other,NIS (new Israeli shekel),Israel
+9957,currency_unresolved,"120,000",Other,RMB (chinese yuan),Mainland China
+10089,salary_likely_in_thousands_or_hourly,65,GBP,,UK (Northern Ireland)
+10172,salary_likely_in_thousands_or_hourly,80,USD,,U.S.
+10211,duplicate_submission,"163,000",USD,,United States
+10234,duplicate_submission,"67,000",USD,,United States
+10326,salary_likely_in_thousands_or_hourly,60,USD,,USA
+10364,salary_zero_or_negative,0,USD,,Usa
+10376,currency_unresolved,"732,000",Other,Taiwanese dollars,Taiwan
+10477,duplicate_submission,"78,000",USD,,United States
+10531,duplicate_submission,"128,000",USD,,US
+10676,duplicate_submission,"48,500",CAD,,Canada
+10677,duplicate_submission,"108,000",CAD,,Canada
+10780,salary_likely_in_thousands_or_hourly,57,USD,,USA
+10855,duplicate_submission,"47,507",USD,,US
+10906,currency_unresolved,"1,100,000",Other,Philippine Peso,Philippines
+10909,duplicate_submission,"125,000",USD,,USA
+11115,duplicate_submission,"42,500",USD,,United States
+11120,salary_likely_in_thousands_or_hourly,90,USD,,USA
+11130,duplicate_submission,"90,000",USD,,Usa
+11222,duplicate_submission,"75,000",USD,,USA
+11236,currency_unresolved,"27,000,000",Other,KRW (Korean Won),South Korea
+11269,duplicate_submission,"58,000",USD,,United States
+11308,duplicate_submission,"85,000",USD,,USA
+11360,duplicate_submission,"65,000",USD,,U.S.
+11443,duplicate_submission,"130,000",USD,,United States
+11466,salary_likely_in_thousands_or_hourly,55,EUR,,Germany
+11559,duplicate_submission,"53,000",EUR,,France
+11704,salary_likely_in_thousands_or_hourly,40,EUR,,Italy
+11721,currency_unresolved,"187,200",Other,ILS (Shekel),Israel
+11762,currency_unresolved,"250,000",Other,China RMB,China
+11826,currency_unresolved,"80,000",Other,AUD Australian,Australia
+11846,salary_likely_in_thousands_or_hourly,65,USD,,USA
+11902,salary_likely_in_thousands_or_hourly,55,USD,,USA
+11915,currency_unresolved,"2,500,000",Other,LKR,Sri Lanka
+11916,salary_likely_in_thousands_or_hourly,30,EUR,,spain
+11957,duplicate_submission,"52,500",CAD,,Canada
+11999,duplicate_submission,"135,000",USD,,United States
+12001,salary_likely_in_thousands_or_hourly,53,USD,,United States
+12093,duplicate_submission,"120,000",USD,,United States
+12118,duplicate_submission,"112,000",USD,,USA
+12238,duplicate_submission,"134,000",USD,,US
+12250,currency_unresolved,"72,000",Other,Polish Złoty,Poland
+12367,duplicate_submission,"90,000",USD,,USA
+12376,duplicate_submission,"175,000",USD,,USA
+12617,salary_zero_or_negative,0,USD,,USA
+12652,currency_unresolved,"360,000",Other,Philippine peso (PHP),Philippines
+12910,salary_likely_in_thousands_or_hourly,36,EUR,,The Netherlands
+13158,duplicate_submission,"43,680",USD,,USA
+13192,duplicate_submission,"91,000",USD,,United States
+13220,currency_unresolved,"83,000",Other,Australian Dollars,Australia
+13316,salary_likely_in_thousands_or_hourly,"27,500",JPY,,Japan
+13407,duplicate_submission,"160,000",USD,,United States
+13539,salary_zero_or_negative,0,USD,,USA
+13667,duplicate_submission,"37,544",USD,,United States
+13698,salary_likely_in_thousands_or_hourly,57,USD,,United States
+13780,salary_likely_in_thousands_or_hourly,54,USD,,USA
+13957,duplicate_submission,"135,000",USD,,USA
+14033,duplicate_submission,"112,000",USD,,United States
+14125,salary_likely_in_thousands_or_hourly,105,USD,,usa
+14184,salary_likely_in_thousands_or_hourly,70,CAD,,Canada
+14300,salary_likely_in_thousands_or_hourly,37,EUR,,France
+14312,duplicate_submission; salary_likely_in_thousands_or_hourly,37,EUR,,France
+14380,duplicate_submission,"65,500",USD,,United States
+14412,duplicate_submission,"76,000",GBP,,United Kingdom
+14499,duplicate_submission,"75,600",USD,,USA
+14513,duplicate_submission,"42,000",USD,,US
+14756,duplicate_submission,"49,500",USD,,United States
+14841,duplicate_submission,"53,500",CAD,,Canada
+14846,duplicate_submission,"120,000",USD,,United States
+14870,duplicate_submission,"85,000",USD,,United States
+14875,salary_likely_in_thousands_or_hourly,65,EUR,,Germany
+14917,currency_unresolved,"65,000",Other,Equity,United States
+14967,duplicate_submission,"68,000",USD,,United States
+15162,salary_likely_in_thousands_or_hourly,102,Other,BRL,Brazil
+15174,duplicate_submission,"84,000",USD,,United States
+15236,duplicate_submission,"76,000",USD,,United States
+15240,salary_zero_or_negative,0,USD,,United States
+15336,salary_zero_or_negative,0,USD,,USA
+15470,duplicate_submission,"76,000",USD,,United States
+15565,duplicate_submission,"57,000",USD,,US
+15570,salary_likely_in_thousands_or_hourly,52,USD,,United States
+15637,duplicate_submission,"82,000",USD,,US
+15679,duplicate_submission,"145,000",USD,,United States
+15737,salary_likely_in_thousands_or_hourly,28,GBP,,Uk
+15764,duplicate_submission,"72,500",USD,,USA
+15802,salary_likely_in_thousands_or_hourly,55,USD,,SWITZERLAND
+15887,salary_likely_in_thousands_or_hourly,240,USD,,United States
+16011,duplicate_submission,"58,000",USD,,United States
+16148,duplicate_submission,"76,000",USD,,USA
+16397,currency_unresolved,"845,000",Other,Argentinian peso (ARS),Argentina
+16477,duplicate_submission,"75,000",USD,,United States
+16486,duplicate_submission,"57,000",USD,,United States
+16493,duplicate_submission,"113,500",USD,,United States
+16540,duplicate_submission,"90,000",CAD,,Canada
+16542,duplicate_submission,"70,000",USD,,United States
+16597,duplicate_submission,"82,500",USD,,United States
+16613,duplicate_submission,"34,000",USD,,United States
+16616,duplicate_submission,"63,000",USD,,USA
+16629,currency_unresolved,"580,000",Other,Israeli Shekels,Israel
+16635,duplicate_submission,"140,000",USD,,United States
+16636,duplicate_submission,"98,000",USD,,United States
+16685,duplicate_submission,"82,500",USD,,United States
+16690,salary_likely_in_thousands_or_hourly,80,USD,,USA
+16698,duplicate_submission,"30,000",GBP,,England
+16699,duplicate_submission,"175,000",USD,,USA
+16718,salary_likely_in_thousands_or_hourly,350,USD,,USA
+16768,duplicate_submission,"75,000",USD,,United States
+16772,duplicate_submission,"160,000",USD,,United States
+16837,duplicate_submission,"94,500",USD,,United States
+16875,duplicate_submission,"125,000",USD,,United States of America
+16879,duplicate_submission,"139,000",USD,,US
+17040,duplicate_submission,"90,000",USD,,United States
+17068,duplicate_submission,"80,000",USD,,United States
+17090,duplicate_submission,"43,680",USD,,USA
+17101,duplicate_submission,"82,500",USD,,United States
+17102,salary_likely_in_thousands_or_hourly,36,EUR,,Ireland
+17115,currency_unresolved,"402,000",Other,PhP (Philippine Peso),Philippines
+17137,duplicate_submission,"300,000",USD,,US
+17149,duplicate_submission,"47,840",USD,,United States of America
+17195,duplicate_submission,"119,000",USD,,US
+17215,duplicate_submission,"93,500",USD,,USA
+17309,duplicate_submission,"115,000",USD,,United States
+17317,duplicate_submission,"82,500",USD,,United States
+17639,duplicate_submission,"91,000",USD,,USA tomorrow
+17820,duplicate_submission,"96,000",USD,,USA
+17925,duplicate_submission,"86,000",USD,,USA
+17961,duplicate_submission,"210,000",USD,,United States
+17971,duplicate_submission,"95,000",USD,,United States
+18077,duplicate_submission,"130,000",USD,,United States
+18142,salary_likely_in_thousands_or_hourly,72,USD,,United States
+18228,duplicate_submission,"82,000",USD,,United States
+18324,duplicate_submission,"215,000",USD,,United States
+18435,salary_likely_in_thousands_or_hourly,130,USD,,United States
+18445,duplicate_submission,"35,000",USD,,United States
+18474,duplicate_submission,"57,000",USD,,United states
+18558,duplicate_submission,"146,000",USD,,US
+18620,salary_likely_in_thousands_or_hourly,100,EUR,,Germany
+18650,duplicate_submission,"110,000",USD,,United States
+18664,currency_unresolved,"163,200",Other,SAR,Saudi Arabia
+18841,duplicate_submission,"78,000",USD,,United States
+18845,currency_unresolved,"48,000",Other,,Malaysia
+18846,salary_likely_in_thousands_or_hourly,60,EUR,,The Netherlands
+18878,salary_likely_in_thousands_or_hourly,51,GBP,,United Kingdom
+18884,currency_unresolved,"97,000",Other,,Malaysia
+18906,currency_unresolved,"55,140",Other,,USA
+18932,currency_unresolved,"38,760",Other,RM,Malaysia
+18935,duplicate_submission,"240,000",AUD/NZD,,New Zealand
+18938,duplicate_submission,"240,000",AUD/NZD,,New Zealand
+19009,duplicate_submission,"52,000",GBP,,United Kingdom
+19087,duplicate_submission,"32,000",USD,,US
+19116,duplicate_submission,"162,000",USD,,USA
+19176,duplicate_submission,"132,000",USD,,United States
+19245,duplicate_submission,"70,000",AUD/NZD,,Australia
+19252,currency_unresolved,"780,000",Other,Argentine Peso,Argentina
+19254,duplicate_submission,"70,000",AUD/NZD,,Australia
+19289,duplicate_submission,"25,000",GBP,,United Kingdom
+19297,salary_likely_in_thousands_or_hourly,50,EUR,,Germany
+19325,currency_unresolved,"600,000",Other,Philippine Pesos,Philippines
+19402,salary_likely_in_thousands_or_hourly,55,USD,,United States
+19427,duplicate_submission,"85,000",USD,,United States
+19443,duplicate_submission,"101,000",USD,,United States
+19511,duplicate_submission,"117,500",USD,,United States
+19522,salary_likely_in_thousands_or_hourly,40,USD,,United States
+19527,duplicate_submission,"118,000",USD,,United States
+19562,duplicate_submission,"140,000",USD,,United States
+19631,duplicate_submission,"107,500",USD,,United States
+19690,salary_likely_in_thousands_or_hourly,145,USD,,USA
+20067,duplicate_submission,"78,000",USD,,United States
+20096,salary_likely_in_thousands_or_hourly,80,USD,,US
+20177,duplicate_submission,"91,000",USD,,United states
+20210,salary_zero_or_negative,0,USD,,United States
+20286,duplicate_submission,"97,000",USD,,USA
+20362,duplicate_submission,"61,000",USD,,United States
+20381,duplicate_submission,61000,USD,,United States
+20412,duplicate_submission,41500,USD,,US
+20416,duplicate_submission,61000,USD,,United States
+20421,duplicate_submission,61000,USD,,United States
+20472,salary_zero_or_negative,0,USD,,US
+20493,duplicate_submission,61000,USD,,United States
+20530,duplicate_submission,61000,USD,,United States
+20531,duplicate_submission,61000,USD,,United States
+20567,duplicate_submission,61000,USD,,United States
+21051,salary_likely_in_thousands_or_hourly,70,USD,,USA
+21202,duplicate_submission,63204,USD,,United States
+21224,salary_likely_in_thousands_or_hourly,40,USD,,United States
+21232,salary_likely_in_thousands_or_hourly,55,USD,,Usa
+21289,salary_likely_in_thousands_or_hourly,110,USD,,US
+21324,currency_unresolved,1465000,Other,INR (Indian Rupee),India
+21348,salary_likely_in_thousands_or_hourly,150,USD,,USA
+21361,salary_likely_in_thousands_or_hourly,51,EUR,,spain
+21547,currency_unresolved,325000,Other,Danish Kroner,Denmark
+21696,duplicate_submission,92000,USD,,United States
+22380,salary_likely_in_thousands_or_hourly,78,USD,,Usa
+22617,duplicate_submission,70000,USD,,United states
+22873,currency_unresolved,36000000,Other,Korean Won,South Korea
+23030,salary_zero_or_negative,0,USD,,United States
+23343,salary_likely_in_thousands_or_hourly,160,USD,,Canada
+23589,duplicate_submission,81000,USD,,Usa
+23623,salary_likely_in_thousands_or_hourly,55,USD,,United States
+23863,duplicate_submission,160000,USD,,U.S.
+23931,duplicate_submission,92700,USD,,United States
+23985,salary_zero_or_negative,0,USD,,USA
+24166,salary_likely_in_thousands_or_hourly,70,USD,,America
+24951,currency_unresolved,230000,Other,Mexican Pesos,Mexico
+25263,salary_likely_in_thousands_or_hourly,50,USD,,USA
+25343,duplicate_submission,46425,USD,,USA
+25550,currency_unresolved,804000,Other,THAI  BAHT,ARGENTINA BUT MY ORG IS IN THAILAND
+25584,duplicate_submission,136000,USD,,USA
+26074,salary_likely_in_thousands_or_hourly,40,USD,,United States
+26139,salary_likely_in_thousands_or_hourly,100,USD,,Usa
+26169,salary_likely_in_thousands_or_hourly,185,USD,,United States
+26189,salary_likely_in_thousands_or_hourly,90,CAD,,Canada
+26210,salary_likely_in_thousands_or_hourly,36,USD,,United States
+26225,salary_likely_in_thousands_or_hourly,65,USD,,US

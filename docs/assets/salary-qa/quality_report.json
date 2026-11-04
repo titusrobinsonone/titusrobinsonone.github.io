@@ -1,0 +1,334 @@
+{
+  "source": "Ask a Manager Salary Survey 2021 (via TidyTuesday 2021-05-18)",
+  "rows_in": 26232,
+  "rows_clean": 25956,
+  "rows_rejected": 276,
+  "rows_with_warnings": 719,
+  "reconciles": true,
+  "rules": [
+    {
+      "rule": "field_exp_exceeds_overall",
+      "severity": "warn",
+      "rows": 233
+    },
+    {
+      "rule": "us_state_missing",
+      "severity": "warn",
+      "rows": 172
+    },
+    {
+      "rule": "duplicate_submission",
+      "severity": "reject",
+      "rows": 148
+    },
+    {
+      "rule": "us_multiple_states",
+      "severity": "warn",
+      "rows": 97
+    },
+    {
+      "rule": "salary_likely_in_thousands_or_hourly",
+      "severity": "reject",
+      "rows": 78
+    },
+    {
+      "rule": "usd_outside_us",
+      "severity": "warn",
+      "rows": 74
+    },
+    {
+      "rule": "salary_robust_outlier",
+      "severity": "warn",
+      "rows": 73
+    },
+    {
+      "rule": "currency_unresolved",
+      "severity": "reject",
+      "rows": 40
+    },
+    {
+      "rule": "salary_below_10k_usd",
+      "severity": "warn",
+      "rows": 33
+    },
+    {
+      "rule": "country_unresolved",
+      "severity": "warn",
+      "rows": 30
+    },
+    {
+      "rule": "currency_country_conflict",
+      "severity": "warn",
+      "rows": 23
+    },
+    {
+      "rule": "experience_exceeds_age",
+      "severity": "warn",
+      "rows": 20
+    },
+    {
+      "rule": "salary_zero_or_negative",
+      "severity": "reject",
+      "rows": 10
+    },
+    {
+      "rule": "state_given_outside_us",
+      "severity": "warn",
+      "rows": 8
+    },
+    {
+      "rule": "pii_redacted",
+      "severity": "warn",
+      "rows": 3
+    },
+    {
+      "rule": "salary_above_5m_usd",
+      "severity": "reject",
+      "rows": 1
+    }
+  ],
+  "country": {
+    "distinct_raw_spellings": 241,
+    "distinct_after": 91,
+    "methods": {
+      "exact": 12852,
+      "alias": 13259,
+      "unresolved": 30,
+      "contains": 49,
+      "fuzzy": 37,
+      "us_state_as_country": 2,
+      "flag_emoji": 3
+    }
+  },
+  "industry_distinct_raw": 956,
+  "privacy": {
+    "pii_hits": {
+      "URL": 3
+    },
+    "rows_with_pii": 3,
+    "k_threshold": 5,
+    "full_release_rows_below_k": 25788,
+    "full_release_unique_rows": 24645,
+    "full_release_pct_below_k": 99.4,
+    "drop_city_rows_below_k": 20705,
+    "drop_city_pct_below_k": 79.8,
+    "coarse_rows_below_k": 2537,
+    "coarse_pct_below_k": 9.8
+  },
+  "open_ends": {
+    "answered": 2834,
+    "coded": 2223,
+    "uncoded": 611,
+    "coverage_pct": 78.4,
+    "codes": {
+      "Bonus / incentive": 935,
+      "Equity / stock": 474,
+      "Hourly / part-time / contract": 356,
+      "Benefits / pension": 247,
+      "Overtime / shift pay": 163,
+      "Hours / schedule": 159,
+      "Commission / sales": 134,
+      "Public sector / union scale": 89,
+      "Currency / location / remote": 78,
+      "Raise / pay change": 72,
+      "Benefits / pension (none)": 56,
+      "Side income / second job": 35,
+      "Underpaid / pay fairness": 24,
+      "Bonus / incentive (none)": 23,
+      "Overtime / shift pay (none)": 16,
+      "Equity / stock (none)": 12,
+      "Tips / gratuity": 10,
+      "Hours / schedule (none)": 4,
+      "Hourly / part-time / contract (none)": 3,
+      "Currency / location / remote (none)": 3,
+      "Raise / pay change (none)": 3,
+      "Public sector / union scale (none)": 3,
+      "Side income / second job (none)": 1
+    }
+  },
+  "impact_us_usd": {
+    "raw": {
+      "n": 21852,
+      "mean": 96659,
+      "median": 79000,
+      "p25": 56400,
+      "p75": 112000,
+      "max": 102000000,
+      "min": 0
+    },
+    "clean": {
+      "n": 21672,
+      "mean": 92225,
+      "median": 79000,
+      "p25": 56788,
+      "p75": 112000,
+      "max": 3000000,
+      "min": 1000
+    },
+    "clean_excl_outliers": {
+      "n": 21620,
+      "mean": 90948,
+      "median": 79000,
+      "p25": 57000,
+      "p75": 112000,
+      "max": 603000,
+      "min": 10500
+    }
+  },
+  "us_industry_medians_n300": [
+    {
+      "industry": "Computing or Tech",
+      "n": 3428,
+      "mean": 129257,
+      "median": 123000,
+      "p25": 90000,
+      "p75": 160000,
+      "max": 603000,
+      "min": 13000
+    },
+    {
+      "industry": "Law",
+      "n": 913,
+      "mean": 120682,
+      "median": 96000,
+      "p25": 66780,
+      "p75": 154500,
+      "max": 600000,
+      "min": 12000
+    },
+    {
+      "industry": "Engineering or Manufacturing",
+      "n": 1269,
+      "mean": 97901,
+      "median": 92000,
+      "p25": 72625,
+      "p75": 118250,
+      "max": 457000,
+      "min": 16000
+    },
+    {
+      "industry": "Business or Consulting",
+      "n": 632,
+      "mean": 104294,
+      "median": 91000,
+      "p25": 71000,
+      "p75": 130000,
+      "max": 400000,
+      "min": 12000
+    },
+    {
+      "industry": "Accounting, Banking & Finance",
+      "n": 1364,
+      "mean": 90737,
+      "median": 80000,
+      "p25": 58424,
+      "p75": 110000,
+      "max": 415000,
+      "min": 12000
+    },
+    {
+      "industry": "Health care",
+      "n": 1475,
+      "mean": 90729,
+      "median": 80000,
+      "p25": 57000,
+      "p75": 110000,
+      "max": 560000,
+      "min": 12000
+    },
+    {
+      "industry": "Marketing, Advertising & PR",
+      "n": 848,
+      "mean": 90449,
+      "median": 79000,
+      "p25": 61000,
+      "p75": 110000,
+      "max": 540000,
+      "min": 13500
+    },
+    {
+      "industry": "Government and Public Administration",
+      "n": 1350,
+      "mean": 83182,
+      "median": 78084,
+      "p25": 58000,
+      "p75": 105000,
+      "max": 253300,
+      "min": 13300
+    },
+    {
+      "industry": "Insurance",
+      "n": 426,
+      "mean": 86749,
+      "median": 77362,
+      "p25": 55875,
+      "p75": 107000,
+      "max": 450000,
+      "min": 11000
+    },
+    {
+      "industry": "Media & Digital",
+      "n": 581,
+      "mean": 86394,
+      "median": 76000,
+      "p25": 60000,
+      "p75": 101500,
+      "max": 470000,
+      "min": 16000
+    },
+    {
+      "industry": "Recruitment or HR",
+      "n": 370,
+      "mean": 80839,
+      "median": 71972,
+      "p25": 55000,
+      "p75": 95055,
+      "max": 312000,
+      "min": 16640
+    },
+    {
+      "industry": "Nonprofits",
+      "n": 2036,
+      "mean": 72387,
+      "median": 65000,
+      "p25": 50000,
+      "p75": 85000,
+      "max": 510000,
+      "min": 13000
+    },
+    {
+      "industry": "Education (Higher Education)",
+      "n": 1987,
+      "mean": 68443,
+      "median": 62500,
+      "p25": 50000,
+      "p75": 80000,
+      "max": 500000,
+      "min": 11100
+    },
+    {
+      "industry": "Education (Primary/Secondary)",
+      "n": 680,
+      "mean": 65295,
+      "median": 58000,
+      "p25": 47528,
+      "p75": 75000,
+      "max": 570000,
+      "min": 12000
+    },
+    {
+      "industry": "Retail",
+      "n": 352,
+      "mean": 62538,
+      "median": 52500,
+      "p25": 34080,
+      "p75": 80750,
+      "max": 295000,
+      "min": 14500
+    }
+  ],
+  "codeframe_audit": {
+    "sampled": 100,
+    "correct": 92
+  }
+}

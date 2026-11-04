@@ -2,14 +2,15 @@
 
 [**Explore the portfolio →**](https://titusrobinsonone.github.io/) · [LinkedIn](https://www.linkedin.com/in/titusrobinson/) · [How to add a project](EDITING.md)
 
-Five inspectable projects connecting a business question to runnable analysis, interactive reporting and clear limitations.
+Six inspectable projects connecting a business question to runnable analysis, interactive reporting and clear limitations.
 
-Portfolio owner and maintainer: **Titus Robinson**. These are independent, AI-assisted portfolio implementations created in October 2026. All included datasets and reported results are synthetic demonstrations, not employer data, client work or measured workplace improvements.
+Portfolio owner and maintainer: **Titus Robinson**. These are independent, AI-assisted portfolio implementations created in October and November 2026. **Salary Survey Data Quality & Privacy** uses real, public survey data (the 2021 Ask a Manager Salary Survey, via TidyTuesday). The other five use synthetic demonstration data. None of them are employer data, client work or measured workplace improvements.
 
 ![Portfolio preview](docs/assets/portfolio-cover.png)
 
 | Project | Decision | Implementation | Explore |
 |---|---|---|---|
+| **Salary Survey Data Quality & Privacy** (real data) | Can a self-reported salary survey be trusted, and shared safely? | 26,232 real responses; severity-graded QA, 241 → 91 country spellings, PII redaction, k-anonymity, negation-aware open-end codeframe | [Report](https://titusrobinsonone.github.io/salary-qa.html) · [Python](src/salary_survey_qa.py) · [Method](src/SALARY_QA_README.md) |
 | Demand & Inventory Lab | How much stock buys the next increment of service? | Chronological forecasting, 24 policy scenarios, inventory-flow reconciliation | [Case study](https://titusrobinsonone.github.io/project.html?id=inventory) · [Python](src/inventory_lab.py) · [Method](src/INVENTORY_README.md) |
 | Subscription Revenue Forensics | What changed in MRR, and does every cent reconcile? | SQLite customer-month spine, window functions, MRR bridge, cohort retention | [Case study](https://titusrobinsonone.github.io/project.html?id=revenue) · [SQL](src/revenue_model.sql) · [Method](src/REVENUE_README.md) |
 | Experiment Decision Studio | Is a conversion improvement reliable and safe enough to ship? | Confidence intervals, sample-ratio checks, practical thresholds and error guardrails | [Case study](https://titusrobinsonone.github.io/project.html?id=experiment) · [Python](src/experiment_studio.py) · [Method](src/EXPERIMENT_README.md) |
@@ -25,6 +26,8 @@ python src/inventory_lab.py --output out/inventory
 python src/revenue_forensics.py --output out/revenue
 python src/experiment_studio.py --output out/experiment
 python src/survey_pipeline.py --generate-demo --output out/survey
+python src/salary_survey_qa.py --input data/ask_a_manager_2021.csv --output out/salary_qa
+python src/make_salary_report.py --run out/salary_qa
 ```
 
 The three new pipelines also accept `--input your-file.csv`. Check each source file and the bundled example CSV for its required schema. Keep source files outside the output directory.
@@ -40,7 +43,7 @@ python src/validate_portfolio.py
 node src/check_frontend.mjs
 ```
 
-The 14 analytical checks cover chronological isolation, stock reconciliation, lead times, revenue movement classification, carry-forward state, duplicate isolation, interval arithmetic, allocation failure and guardrail precedence. Six additional survey-pipeline checks cover validation, metric denominators and source preservation. Frontend checks compare browser decision rules with the Python-generated results, and the content audit checks local links and metadata.
+The 14 analytical checks cover chronological isolation, stock reconciliation, lead times, revenue movement classification, carry-forward state, duplicate isolation, interval arithmetic, allocation failure and guardrail precedence. Six additional survey-pipeline checks cover validation, metric denominators and source preservation. Nine salary-survey checks cover parsing, country matching, currency splitting, PII redaction, negation-aware coding, k-anonymity, duplicate rejection and source preservation. Frontend checks compare browser decision rules with the Python-generated results, and the content audit checks local links and metadata.
 
 ## Preview the website locally
 
